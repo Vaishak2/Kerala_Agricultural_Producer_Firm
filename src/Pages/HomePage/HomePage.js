@@ -4,6 +4,7 @@ import AboutUsHome from '../../Components/HomeComponents/AboutUsHome/AboutUsHome
 import BannerComponent from '../../Components/HomeComponents/BannerComponent/BannerComponent'
 
 import SupportsGrid from '../../Components/HomeComponents/SupportsGrid/SupportsGrid'
+import BottomBanner from '../../Components/HomeComponents/BottomBanner/BottomBanner'
 
 
 function HomePage() {
@@ -15,6 +16,8 @@ function HomePage() {
     <SupportsGrid/>
 
       <AboutUsHome/>
+      <BottomBanner/>
+
     </div>
   )
 }
