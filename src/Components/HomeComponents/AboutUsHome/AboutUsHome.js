@@ -5,7 +5,7 @@ import Group from '../../../Assets/Group.png'
 function AboutUsHome() {
   return (
 
-    <div className="sm:w-[1347px] flex">
+    <div className="sm:w-[1347px] sm:mt-[104px] sm:mx-[32px] flex">
       <div className="">
         <img
           src={greenImage}
