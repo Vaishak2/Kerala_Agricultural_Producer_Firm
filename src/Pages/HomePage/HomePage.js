@@ -11,12 +11,10 @@ function HomePage() {
   return (
     <div>
 
-      <BannerComponent/>
-
-    <SupportsGrid/>
-
-      <AboutUsHome/>
-      <BottomBanner/>
+      <BannerComponent />
+      <SupportsGrid />
+      <AboutUsHome />
+      <BottomBanner />
 
     </div>
   )
