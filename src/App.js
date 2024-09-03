@@ -6,7 +6,7 @@ import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App font-signika w-[1440px] bg-yellow-200 mx-auto">
+    <div className="App font-signika w-[1440px] bg-[#F8F8F8] mx-auto">
       <Header/>
       <HomePage/>
       <Footer/>
