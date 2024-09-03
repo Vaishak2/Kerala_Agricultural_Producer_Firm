@@ -4,7 +4,7 @@ import bottomBanner from '../../../Assets/bottomBanner.png'
 function BottomBanner() {
   return (
     
-    <div className='sm:p-[32px]'>
+    <div className='sm:mx-[32px]'>
         <img src={bottomBanner}
          alt=""
          className='sm:mt-[104px]' />
