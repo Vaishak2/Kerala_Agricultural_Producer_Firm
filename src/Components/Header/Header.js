@@ -1,6 +1,8 @@
 import React from 'react'
 import MainLogo from "../../Assets/mainLogo.png"
 import Dot from "../../Assets/Icon/Ellipse 1.svg"
+import "./Header.css"
+import ButtonArrow from "../../Assets/Icon/arrow_outward.svg"
 
 function Header() {
   return (
@@ -26,6 +28,11 @@ function Header() {
     <img className='sm:w-[8px] sm:h-[8px] my-auto' src={Dot} alt="" />
     <div>Gallery</div>
   </div>
+
+<button className='GetInTouchBtn flex '>
+    <span>Get In Touch</span>
+   <img src={ButtonArrow} alt="" />
+</button>
 
    </div>
     </div>
