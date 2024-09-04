@@ -7,6 +7,7 @@ import Footer from './Components/Footer/Footer';
 import Gallery from './Components/Gallery/Gallery';
 import AboutPage from './Pages/AboutPage/AboutPage';
 import ServicesPage from './Pages/ServicesPage/ServicesPage';
+import CareerPage from './Pages/CareerPage/CareerPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/gallery' Component={Gallery}/>
           <Route path='/aboutUs' Component={AboutPage}/>
           <Route path='/services' Component={ServicesPage}/>
+          <Route path='/career' Component={CareerPage}/>
         </Routes>
         <Footer />
       </Router>
