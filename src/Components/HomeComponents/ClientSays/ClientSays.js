@@ -1,21 +1,22 @@
 import React from 'react';
 import BgVector from "../../../Assets/bg vector.png"
 import Exclamtion from "../../../Assets/Icon/Exclamation2.svg"
+import blackExclamtion from "../../../Assets/Icon/blackExclamtion.svg"
 import ClientImage from "../../../Assets/client Image.png"
 
 function ClientSays() {
   return (
-    <div>
-      <div className='sm:w-[764px] mx-auto sm:mt-[88px]'>
+    <div className='bg-[#ffff] sm:pt-[88px] '>
+      <div className='sm:w-[764px] mx-auto '>
         <h1 className='sm:text-5xl sm:font-medium'>What’s Our Clients Say</h1>
         <p className='sm:text-[16px] sm:leading-8 sm:font-light sm:mt-6'>Elit ultricies adipiscing ornare. Rutrum sapien aliquet mollis. Pretium condimentum. Cursus elit hac fames laoreet non nec facilisis quis dui.</p>
       </div>
-      <div className='flex'>
+      <div className='flex columns-3 gap-6 sm:ml-8'>
       <div>
-        <div className='sm:translate-x-[199px] sm:translate-y-[24px] sm:w-fit'><img src={Exclamtion} alt="" /></div>
+        <div className='sm:translate-x-[199px] sm:translate-y-[24px] sm:w-fit'><img src={blackExclamtion} alt="" /></div>
 
         <div>
-          <div className='sm:w-[443px] bg-[#5D8424] sm:h-[368px] rounded-t-[32px] rounded-bl-[32px] text-white sm:pt-12'>
+          <div className='sm:w-[443px] bg-[#F8F8F8] sm:h-[368px] rounded-t-[32px] rounded-bl-[32px] text-black sm:pt-12'>
 
             <div className=''>
               <h1 className='sm:text-[20px]'>Madhav Anil</h1>
@@ -50,10 +51,10 @@ function ClientSays() {
         </div>
       </div>
       <div>
-        <div className='sm:translate-x-[199px] sm:translate-y-[24px] sm:w-fit'><img src={Exclamtion} alt="" /></div>
+        <div className='sm:translate-x-[199px] sm:translate-y-[24px] sm:w-fit'><img src={blackExclamtion} alt="" /></div>
 
         <div>
-          <div className='sm:w-[443px] bg-[#5D8424] sm:h-[368px] rounded-t-[32px] rounded-bl-[32px] text-white sm:pt-12'>
+          <div className='sm:w-[443px] bg-[#F8F8F8] sm:h-[368px] rounded-t-[32px] rounded-bl-[32px] text-black sm:pt-12'>
 
             <div className=''>
               <h1 className='sm:text-[20px]'>Madhav Anil</h1>
