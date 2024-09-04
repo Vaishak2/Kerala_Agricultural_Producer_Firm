@@ -9,6 +9,7 @@ import BottomBanner from '../../Components/HomeComponents/BottomBanner/BottomBan
 import ProductsCarousel from '../../Components/HomeComponents/ProductsCarousel/ProductsCarousel'
 
 import OurServices from '../../Components/HomeComponents/OurServices/OurServices'
+import BlogsCarousel from '../../Components/HomeComponents/BlogsCarousel/BlogsCarousel'
 
 
 
@@ -20,6 +21,7 @@ function HomePage() {
       <AboutUsHome />
       <OurServices/>
       <ProductsCarousel/>
+      <BlogsCarousel/>
       <BottomBanner />
 
         </div>
