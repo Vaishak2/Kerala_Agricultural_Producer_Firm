@@ -1,0 +1,19 @@
+.custom-prev-arrow {
+    top: -36px;
+    left: 1260px; /* Move the prev arrow 50px to the left */
+    z-index: 1;
+  }
+  
+  .custom-next-arrow {
+    top: -36px;
+    right: 0px; /* Move the next arrow 50px to the right */
+    z-index: 1;
+  }
+
+  .slider-container .slick-slide {
+    padding: 0 12px; /* Adds 12px padding on left and right to create a 24px gap between slides */
+  }
+  
+  .slider-container .slick-list {
+    margin: 0 -12px; /* Adjusts the margin of the slider to keep the overall layout centered */
+  }

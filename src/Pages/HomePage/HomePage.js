@@ -5,21 +5,23 @@ import BannerComponent from '../../Components/HomeComponents/BannerComponent/Ban
 
 import SupportsGrid from '../../Components/HomeComponents/SupportsGrid/SupportsGrid'
 import BottomBanner from '../../Components/HomeComponents/BottomBanner/BottomBanner'
+import ProductsCarousel from '../../Components/HomeComponents/ProductsCarousel/ProductsCarousel'
 
 
 function HomePage() {
-  return (
-    <div>
+    return (
+        <div>
 
-      <BannerComponent/>
+            <BannerComponent />
 
-    <SupportsGrid/>
+            <SupportsGrid />
 
-      <AboutUsHome/>
-      <BottomBanner/>
+            <AboutUsHome />
+            <ProductsCarousel/>
+            <BottomBanner />
 
-    </div>
-  )
+        </div>
+    )
 }
 
 export default HomePage
