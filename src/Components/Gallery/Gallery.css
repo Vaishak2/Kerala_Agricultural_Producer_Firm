@@ -1,13 +1,13 @@
 .gallery-enter {
     transform: translateY(100%);
     opacity: 0;
-    animation: enterAnimation 0.3s forwards;
+    animation: enterAnimation 0.4s forwards;
 }
 
 .gallery-exit {
     transform: translateY(0);
     opacity: 1;
-    animation: exitAnimation 0.4s forwards;
+    animation: exitAnimation 0.9s forwards;
 }
 
 @keyframes enterAnimation {
