@@ -14,11 +14,8 @@ function Footer() {
     {
       title: '',
       links: ['About', 'Our Story', 'Benefits', 'Team', 'Careers'],
-    },
-    {
-      title: '',
-      links: ['Help', 'FAQs', 'Contact Us'],
-    },
+    }
+   
   ];
 
   const socialIcons = [
@@ -60,7 +57,7 @@ function Footer() {
 
         <div className="flex sm:mx-auto w-fit text-justify ">
           {linkSections.map((section, idx) => (
-            <div key={idx} className={`space-y-4 ${idx === 0 ? 'sm:ml-[100px]' : idx === 1 ? 'sm:ml-[172px]' : 'sm:ml-[171px]'}`}>
+            <div key={idx} className={`space-y-4 ${idx === 0 ? 'sm:ml-[260px]' : idx === 1 ? 'sm:ml-[172px]' : ''}`}>
               {section.links.map((link, i) => (
                 <a key={i} href="#" className={`block font-light text-[16px] text-[#2A2E35] hover:underline hover:font-normal ${i > 0 ? 'sm:mt-[20px]' : ''}`}>
                   {link}

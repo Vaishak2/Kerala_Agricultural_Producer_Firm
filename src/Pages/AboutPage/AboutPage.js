@@ -1,9 +1,14 @@
 import React from 'react'
 import AboutBanner from '../../Components/AboutComponents/AboutBanner/AboutBanner'
+import OurVisionAbout from '../../Components/AboutComponents/OurVision/OurVisionAbout'
 
 function AboutPage() {
   return (
-    <AboutBanner/>
+
+   <div>
+      <AboutBanner/>
+      <OurVisionAbout/>
+   </div>
   )
 }
 
