@@ -10,6 +10,7 @@ import ProductsCarousel from '../../Components/HomeComponents/ProductsCarousel/P
 
 import OurServices from '../../Components/HomeComponents/OurServices/OurServices'
 import ClientSays from '../../Components/HomeComponents/ClientSays/ClientSays'
+import Marquee from '../../Components/MarqueeComponent/Marquee'
 
 
 
@@ -19,6 +20,7 @@ function HomePage() {
       <BannerComponent />
       <SupportsGrid />
       <AboutUsHome />
+      <Marquee/>
       <OurServices/>
 
       <ClientSays/>

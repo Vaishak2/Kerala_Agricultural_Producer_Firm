@@ -54,12 +54,7 @@ function Header() {
             <Link to='/blog'>Blog</Link>
           </div>
           <img className='sm:w-[8px] sm:h-[8px] my-auto' src={Dot} alt="" />
-          <div
-            className={`nav-item ${activeLink === 'Contact Us' ? 'font-semibold' : ''}`}
-            onClick={() => handleClick('Contact Us')}
-          >
-            <Link to='/contactUs'>Contact Us</Link>
-          </div>
+        
           <img className='sm:w-[8px] sm:h-[8px] my-auto' src={Dot} alt="" />
           <div
             className={`nav-item ${activeLink === 'Career' ? 'font-semibold' : ''}`}
