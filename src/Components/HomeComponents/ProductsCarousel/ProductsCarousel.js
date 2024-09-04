@@ -123,10 +123,10 @@ function ProductsCarousel() {
         </Slider>
       </div>
 
-      <button className='sm:w-[200px] sm:h-[56px] mx-auto sm:mt-[56px]'>
-          <span className='text-white text-[16px] font-normal ml-auto'>More Products</span>
-          <img className='sm:w-6 sm:h-6 mr-auto' src={ButtonArrow} alt="Button Arrow" />
-        </button>
+      <button className='sm:w-[200px] sm:h-[56px] mx-auto sm:mt-[56px] bg-[#5D8424]'>
+        <span className='text-white text-[16px] font-normal ml-auto'>More Products</span>
+        <img className='sm:w-6 sm:h-6 mr-auto' src={ButtonArrow} alt="Button Arrow" />
+      </button>
 
     </div>
   )
