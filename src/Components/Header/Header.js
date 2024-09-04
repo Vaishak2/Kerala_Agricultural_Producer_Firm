@@ -20,7 +20,7 @@ function Header() {
         </div>
         <div className='NavSection sm:w-[698px] columns-auto flex gap-4 sm:text-[16px] sm:leading-5 sm:font-light my-auto sm:ml-[295px]'>
           <div
-            className={`nav-item ${activeLink === 'Home' ? 'font-semibold' : ''}`}
+            className={`nav-item ${activeLink === 'Home' ? 'font-semibold ' : ''}`}
             onClick={() => handleClick('Home')}
           >
             <Link to='/'>Home</Link>
@@ -53,7 +53,7 @@ function Header() {
           >
             <Link to='/blog'>Blog</Link>
           </div>
-          <img className='sm:w-[8px] sm:h-[8px] my-auto' src={Dot} alt="" />
+
         
           <img className='sm:w-[8px] sm:h-[8px] my-auto' src={Dot} alt="" />
           <div
