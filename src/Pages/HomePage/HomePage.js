@@ -9,6 +9,7 @@ import BottomBanner from '../../Components/HomeComponents/BottomBanner/BottomBan
 import ProductsCarousel from '../../Components/HomeComponents/ProductsCarousel/ProductsCarousel'
 
 import OurServices from '../../Components/HomeComponents/OurServices/OurServices'
+import ClientSays from '../../Components/HomeComponents/ClientSays/ClientSays'
 
 
 
@@ -19,7 +20,11 @@ function HomePage() {
       <SupportsGrid />
       <AboutUsHome />
       <OurServices/>
+
+      <ClientSays/>
+
       <ProductsCarousel/>
+
       <BottomBanner />
 
         </div>
