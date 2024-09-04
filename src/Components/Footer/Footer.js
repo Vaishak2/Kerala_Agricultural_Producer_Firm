@@ -36,7 +36,7 @@ function Footer() {
         </h2>
       </div>
 
-      <div className="mx-auto sm:w-[1068px] sm:h-[1px] sm:mt-[40px] border-b border-gray-300 opacity-[10%]"></div>
+      <div className="mx-auto sm:w-[1068px] sm:h-[1px] sm:mt-[40px] border-b"></div>
 
       <div className='sm:mt-[40px] sm:flex sm:justify-between sm:mx-[185px]'>
         <div>
