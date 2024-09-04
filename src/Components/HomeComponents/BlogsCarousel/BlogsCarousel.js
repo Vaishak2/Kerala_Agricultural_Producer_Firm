@@ -2,8 +2,8 @@ import React from 'react'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import LeftScrollArrow from '../../../Assets/Icon/Group 14.png'
-import RightScrollArrow from '../../../Assets/Icon/Group 13.png'
+import LeftScrollArrow from '../../../Assets/Icon/left.png'
+import RightScrollArrow from '../../../Assets/Icon/right.png'
 import ButtonArrow from "../../../Assets/Icon/arrow_outward.svg";
 import blogImg1 from "../../../Assets/images/blogImages/blogImg1.png"
 import blogImg2 from "../../../Assets/images/blogImages/blogImg2.png"
@@ -59,8 +59,8 @@ const settings = {
 
 function BlogsCarousel() {
     return (
-        <div className='sm:mx-8'>
-            <div className='text-[48px] font-medium sm:mt-[104px]'>Our Blogs</div>
+        <div className='sm:px-8 bg-[#FFFFFF] sm:mt-[104px] sm:pb-[84px]'>
+            <div className='text-[48px] font-medium sm:pt-[104px]'>Our Blogs</div>
             <div className='sm:w-[798px] mx-auto text-[16px] leading-8 font-light sm:mt-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. it has been the industry's standard. Lorem Ipsum is simply dummy text of the printing and typesetting industry. it has been the industry's standard</div>
 
 
