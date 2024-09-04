@@ -1,15 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Header from './Components/Header/Header';
 import HomePage from './Pages/HomePage/HomePage';
 import Footer from './Components/Footer/Footer';
+import Gallery from './Components/Gallery/Gallery';
 
 function App() {
   return (
     <div className="App font-signika w-[1440px] bg-[#F8F8F8] mx-auto">
-      <Header/>
-      <HomePage/>
-      <Footer/>
+      <Router>
+
+        <Header />
+        <Routes>
+          <Route path='/' exact Component={HomePage} />
+          <Route path='/gallery' exact Component={Gallery}/>
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }

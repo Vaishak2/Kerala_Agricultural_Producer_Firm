@@ -11,7 +11,7 @@ function BannerComponent() {
   </div>
   <h1 className='sm:text-[24px] sm:leading-[29px] text-justify text-white sm:mt-4 sm:font-light'>Harvesting nature’s bounty with care and dedication.</h1>
    
-  <button className='GetInTouchBtn flex  bg-white sm:mt-12'>
+  <button className='GetInTouchBtn flex  bg-white sm:mt-12 sm:px-12 sm:py-4'>
           <span className='text-black'>Get In Touch</span>
           <img className='sm:w-6 sm:h-6' src={BlackButtonArrow} alt="Button Arrow" />
         </button>
