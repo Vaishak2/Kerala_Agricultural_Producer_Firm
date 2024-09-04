@@ -18,10 +18,10 @@ function OurVisionAbout() {
         <img src={ourVision} alt="Vision" className='sm:w-[48px] sm:h-[48px]' />
         <h1 className='font-normal text-[40px] sm:ml-6 text-white'>Our Vision</h1>
       </div>
-      <div className='flex sm:mt-[24px] sm:ml-[64px]'>
-        <p className='text-white font-light text-[28px] sm:leading-[44px] text-justify'>
-          Empowering farmers to thrive by providing comprehensive agricultural support,including <br />
-           access to quality inputs, fair market prices, advanced technologies, and financial services,<br />
+      <div className='flex sm:mt-[24px] sm:ml-[64px] text-white font-light text-[28px] sm:leading-[44px] text-justify sm:w-[1115px]'>
+        <p className=''>
+          Empowering farmers to thrive by providing comprehensive agricultural support,including 
+           access to quality inputs, fair market prices, advanced technologies, and financial services,
            while fostering a sustainable and resilient agricultural ecosystem.
         </p>
       </div>
