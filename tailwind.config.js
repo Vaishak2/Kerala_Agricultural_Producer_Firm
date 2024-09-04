@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: theme => ({
+        'banner-image': "url('/src/Assets/Banner-Image/Banner.png')",
+       
+      }),
       fontFamily: {
         signika: ['Signika', 'sans-serif'],
       },

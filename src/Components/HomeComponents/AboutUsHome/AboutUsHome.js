@@ -1,6 +1,7 @@
 import React from 'react'
 import greenImage from '../../../Assets/greenImage.png'
 import Group from '../../../Assets/Group.png'
+import ButtonArrow from "../../../Assets/Icon/arrow_outward.svg"
 
 function AboutUsHome() {
   return (
@@ -37,6 +38,7 @@ function AboutUsHome() {
             <div className='sm:mt-[56px]'>
               <button className=" bg-[#5D8424] text-[#F5F5DC] font-normal text-[16px] sm:h-[56px] sm:w-[200px] rounded-[48px]">
                 View More
+                <img className='sm:w-6 sm:h-6' src={ButtonArrow} alt="Button Arrow" />
               </button>
             </div>
         </div>
