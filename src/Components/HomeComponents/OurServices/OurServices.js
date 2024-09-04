@@ -6,6 +6,7 @@ import Service2 from "../../../Assets/service2.png"
 
 function OurServices() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [hoveredIndex2, setHoveredIndex2] = useState(null);
 
   const services = [
     "Procurement of Agricultural crops with fixed return to the farmer",
@@ -54,17 +55,17 @@ function OurServices() {
       <div className='sm:mt-[205px] sm:ml-[57px]'>
             <img className='sm:w-[490px] sm:h-[322px]' src={Service2} alt="" />
           </div>
-        <div className='sm:mt-16 sm:ml-8'>
+        <div className='sm:mt-16 sm:ml-8 sm:mb-20'>
           <h1 className='text-justify sm:font-medium sm:text-[32px] sm:leading-[57px]'> Our Financial Services</h1>
           {services2.map((service, index) => (
             <div
               key={index}
               className='flex sm:w-[793px] bg-white rounded-t-[32px] rounded-br-[32px] sm:p-3 justify-between sm:mt-6'
-              onMouseEnter={() => setHoveredIndex(index)}
-              onMouseLeave={() => setHoveredIndex(null)}
+              onMouseEnter={() => setHoveredIndex2(index)}
+              onMouseLeave={() => setHoveredIndex2(null)}
             >
               <p className='sm:ml-8 my-auto'>{service}</p>
-              <img src={hoveredIndex === index ? FillArrow : UnFillArrow} alt="Arrow Icon" />
+              <img src={hoveredIndex2 === index ? FillArrow : UnFillArrow} alt="Arrow Icon" />
             </div>
           ))}
           
