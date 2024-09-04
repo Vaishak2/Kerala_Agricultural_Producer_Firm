@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import HomePage from './Pages/HomePage/HomePage';
 import Footer from './Components/Footer/Footer';
 import Gallery from './Components/Gallery/Gallery';
+import AboutPage from './Pages/AboutPage/AboutPage';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' exact Component={HomePage} />
-          <Route path='/gallery' exact Component={Gallery}/>
+          <Route path='/gallery' Component={Gallery}/>
+          <Route path='/aboutUs' Component={AboutPage}/>
         </Routes>
         <Footer />
       </Router>
