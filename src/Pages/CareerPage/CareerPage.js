@@ -21,7 +21,7 @@ const mockJobs = [
     },
     {
         id: 3,
-        title: "Clark",
+        title: "Clerk",
         location: "Trivandrum",
         experience: "2-4 yrs",
         qualification: "Any",
