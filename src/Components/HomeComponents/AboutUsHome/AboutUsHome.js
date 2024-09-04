@@ -36,7 +36,7 @@ function AboutUsHome() {
               </h3>
             </div>
             <div className='sm:mt-[56px]'>
-              <button className=" bg-[#5D8424] text-[#F5F5DC] font-normal text-[16px] sm:h-[56px] sm:w-[200px] rounded-[48px]">
+              <button className=" bg-[#5D8424] text-[#F5F5DC] font-normal text-[16px] sm:h-[56px] sm:w-[200px] rounded-[48px] sm:py-4 sm:px-12">
                 View More
                 <img className='sm:w-6 sm:h-6' src={ButtonArrow} alt="Button Arrow" />
               </button>
