@@ -4,7 +4,7 @@ import ourMission from '../../../Assets/logos/ourMission.png'
 
 function OurVisionAbout() {
   return (
-    <div className='bg-[#5D8424] sm:rounded-[64px] rounded-[32px] w-[396px] h-[510px] mt-[72px] p-[32px] sm:w-[1376px] sm:h-[563px] sm:mt-[104px] sm:mx-[32px] sm:p-[60px]'>
+    <div className='bg-[#5D8424] sm:rounded-[64px] rounded-[32px] w-[396px] h-[510px] mt-[72px] p-[32px] mx-[16px] sm:w-[1376px] sm:h-[563px] sm:mt-[104px] sm:mx-[32px] sm:p-[60px]'>
       <div className='flex'>
         <img src={ourMission} alt="Mission" className='sm:w-[48px] sm:h-[48px] h-[40px] w-[40px]' />
         <h1 className='font-normal sm:text-[40px] text-[24px] ml-[11px] sm:ml-6 text-white'>Our Mission</h1>
