@@ -36,6 +36,31 @@
     transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
+.album-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-behavior: smooth; /* For smooth scrolling */
+  padding: 10px;
+}
+
+.album-container::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar on mobile */
+}
+
+.album-button {
+  padding: 8px 16px;
+  border-radius: 50px;
+  flex-shrink: 0; /* Prevent shrinking when scrolling */
+  white-space: nowrap;
+}
+
+.album-button-selected {
+  background-color: #1f2937; /* Dark background for selected album */
+  color: #ffffff;
+}
+
   
 
 
