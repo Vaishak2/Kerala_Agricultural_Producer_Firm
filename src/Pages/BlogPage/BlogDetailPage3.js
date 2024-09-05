@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import BlogsBanner1 from "../../Assets/Banner-Image/blogsBanner1.png"
+import blogsBannerResp from "../../Assets/Banner-Image/blogsBanner1-resp.png"
 import blogImg1 from '../../Assets/images/blogImages/blogImg1.png'
 import blogImg2 from '../../Assets/images/blogImages/blogImg2.png'
 import blogImg3 from '../../Assets/images/blogImages/blogImg3.png'
@@ -13,9 +14,10 @@ function BlogDetailPage3() {
       },[])
 
     return (
-        <div className='mx-8 mt-[40px]'>
-            <img src={BlogsBanner1}></img>
-            <div className='sm:text-[40px] font-medium text-left mt-6'>Future of Agriculture: Discovering New Methods for Cost-Effective Farming Practices</div>
+        <div className='sm:mx-8 mx-4 mt-[40px]'>
+            <img className='sm:block hidden' src={BlogsBanner1}></img>
+            <img className='sm:hidden block' src={blogsBannerResp}></img>
+            <div className='sm:text-[40px] text-[32px] font-medium text-left sm:mt-6 mt-8'>Future of Agriculture: Discovering New Methods for Cost-Effective Farming Practices</div>
 
             <div className='text-[16px] font-light text-left sm:leading-7 mt-6'>
                 As the agricultural industry faces new challenges and opportunities, the future of
@@ -25,7 +27,7 @@ function BlogDetailPage3() {
 
             </div>
 
-            <div className='text-[24px] text-left sm:mt-[56px]'>1. Embracing Precision Farming</div>
+            <div className='text-[24px] text-left sm:mt-[56px] mt-8'>1. Embracing Precision Farming</div>
             <div className='text-[16px] font-light sm:leading-7 text-left mt-6'>
                 Precision farming is revolutionizing how we approach agriculture. By leveraging
                 advanced technologies such as GPS, drones, and soil sensors, farmers can make more
@@ -34,7 +36,7 @@ function BlogDetailPage3() {
                 solution that’s becoming more accessible to farms of all sizes.
             </div>
 
-            <div className='text-[24px] text-left sm:mt-[56px]'>2. Adopting Sustainable Farming Practices</div>
+            <div className='text-[24px] text-left sm:mt-[56px] mt-8'>2. Adopting Sustainable Farming Practices</div>
             <div className='text-[16px] font-light sm:leading-7 text-left mt-6'>
                 Sustainability isn’t just about being environmentally friendly; it’s also about making
                 farming practices more economical in the long run. Techniques like crop rotation, cover
@@ -44,7 +46,7 @@ function BlogDetailPage3() {
                 both the environment and your bottom line.
             </div>
 
-            <div className='text-[24px] text-left sm:mt-[56px]'>3. Leveraging Automation and Robotics</div>
+            <div className='text-[24px] text-left sm:mt-[56px] mt-8'>3. Leveraging Automation and Robotics</div>
             <div className='text-[16px] font-light sm:leading-7 text-left mt-6'>
                 The introduction of automation and robotics into agriculture is transforming the industry
                 by reducing labor costs and increasing efficiency. Autonomous tractors, robotic
@@ -55,7 +57,7 @@ function BlogDetailPage3() {
 
             </div>
 
-            <div className='text-[24px] text-left sm:mt-[56px]'>4. Exploring Vertical and Urban Farming</div>
+            <div className='text-[24px] text-left sm:mt-[56px] mt-8'>4. Exploring Vertical and Urban Farming</div>
             <div className='text-[16px] font-light sm:leading-7 text-left mt-6'>
                 As urbanization continues to expand, vertical farming has emerged as a cost-effective
                 and space-saving solution for growing crops. By using vertical spaces and controlled
@@ -66,7 +68,7 @@ function BlogDetailPage3() {
 
             </div>
 
-            <div className='text-[24px] text-left sm:mt-[56px]'>5. Integrating Smart Irrigation Systems</div>
+            <div className='text-[24px] text-left sm:mt-[56px] mt-8'>5. Integrating Smart Irrigation Systems</div>
             <div className='text-[16px] font-light sm:leading-7 text-left mt-6'>
                 Water management is a critical aspect of cost-effective farming, especially in regions
                 prone to drought. Smart irrigation systems that use sensors and weather data to
@@ -75,7 +77,7 @@ function BlogDetailPage3() {
                 vital resource while ensuring that crops receive the moisture they need to thrive.
             </div>
 
-            <div className='text-[24px] text-left sm:mt-[56px]'>6. Investing in Renewable Energy</div>
+            <div className='text-[24px] text-left sm:mt-[56px] mt-8'>6. Investing in Renewable Energy</div>
             <div className='text-[16px] font-light sm:leading-7 text-left mt-6'>
                 Renewable energy sources like solar and wind power are becoming increasingly viable
                 for farms looking to reduce their energy costs. Installing solar panels or wind turbines
@@ -84,7 +86,7 @@ function BlogDetailPage3() {
                 substantial savings and make your farm more resilient to energy price fluctuations.
             </div>
 
-            <div className='text-[24px] text-left sm:mt-[56px]'>7. Exploring Biotechnological Advances</div>
+            <div className='text-[24px] text-left sm:mt-[56px] mt-8'>7. Exploring Biotechnological Advances</div>
             <div className='text-[16px] font-light sm:leading-7 text-left mt-6'>
                 Biotechnology is opening up new possibilities in agriculture, from genetically modified
                 crops that are more resistant to pests and diseases to innovative breeding techniques
@@ -93,7 +95,7 @@ function BlogDetailPage3() {
                 essential component of cost-effective agriculture.
             </div>
 
-            <div className='text-[24px] text-left sm:mt-[56px]'>Conclusion</div>
+            <div className='text-[24px] text-left sm:mt-[56px] mt-8'>Conclusion</div>
             <div className='text-[16px] font-light sm:leading-7 text-left mt-6'>
                 The Path Forward
                 The future of agriculture is bright, with a wealth of new methods and technologies that
@@ -104,39 +106,39 @@ function BlogDetailPage3() {
 
             <div className='text-[32px] font-medium text-left sm:mt-[104px]'>Similar Blogs</div>
 
-            <div className='grid grid-cols-3 gap-6'>
-                <div className='sm:w-[443px] sm:mt-12'>
+            <div className='grid sm:grid-cols-3 grid-cols-1 gap-6'>
+                <div className='sm:w-[443px] w-[396px] mt-12'>
                     <img src={blogImg1} className='h-[290px] rounded-lg'></img>
-                    <div className='text-[#A7A7A7] text-[16px] text-left mt-6'>10 May 2024</div>
-                    <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] sm:mt-4'>Exploring the Future of Farming: Top Agricultural Software...</div>
-                    <div className='sm:h-[40px] text-[16px] font-light text-left sm:leading-[19px] sm:mt-4 sm:w-[256px]'>Uncover the best software solutions for today's tech-savvy farmers.</div>
+                    <div className='text-[#A7A7A7] sm:text-[16px] text-[18px] text-left mt-6'>10 May 2024</div>
+                    <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] mt-4'>Exploring the Future of Farming: Top Agricultural Software...</div>
+                    <div className='sm:h-[40px] sm:text-[16px] text-[18px] font-light text-left sm:leading-[19px] mt-4 sm:w-[256px]'>Uncover the best software solutions for today's tech-savvy farmers.</div>
                     <Link to='/blogs/blogdetails1'>
-                        <button className='sm:w-[201px] sm:h-[56px] bg-[#5D8424] sm:mt-6'>
-                            <span className='text-white text-[16px] font-normal ml-auto'>Read More</span>
+                        <button className='sm:w-[201px] w-[153px] sm:h-[56px] h-[48px] bg-[#5D8424] mt-6'>
+                            <span className='text-white sm:text-[16px] font-normal ml-auto'>Read More</span>
                             <img className='sm:w-6 sm:h-6 mr-auto' src={ButtonArrow} alt="Button Arrow" />
                         </button>
                     </Link>
                 </div>
-                <div className='sm:w-[443px] sm:mt-12'>
+                <div className='sm:w-[443px] w-[396px] mt-12'>
                     <img src={blogImg2} className='h-[290px] rounded-lg'></img>
-                    <div className='text-[#A7A7A7] text-[16px] text-left mt-6'>10 May 2024</div>
-                    <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] sm:mt-4'>The Importance of Choosing the Right Types of Seed Storage...</div>
-                    <div className='sm:h-[40px] text-[16px] font-light text-left sm:leading-[19px] sm:mt-4 sm:w-[256px]'>Learn the importance of proper seed storage and handling equipment...</div>
+                    <div className='text-[#A7A7A7] sm:text-[16px] text-[18px] text-left mt-6'>10 May 2024</div>
+                    <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] mt-4'>The Importance of Choosing the Right Types of Seed Storage...</div>
+                    <div className='sm:h-[40px] sm:text-[16px] text-[18px] font-light text-left sm:leading-[19px] mt-4 sm:w-[256px]'>Learn the importance of proper seed storage and handling equipment...</div>
                     <Link to='/blogs/blogdetails2'>
-                        <button className='sm:w-[201px] sm:h-[56px] bg-[#5D8424] sm:mt-6'>
-                            <span className='text-white text-[16px] font-normal ml-auto'>Read More</span>
+                        <button className='sm:w-[201px] w-[153px] sm:h-[56px] h-[48px] bg-[#5D8424] mt-6'>
+                            <span className='text-white sm:text-[16px] font-normal ml-auto'>Read More</span>
                             <img className='sm:w-6 sm:h-6 mr-auto' src={ButtonArrow} alt="Button Arrow" />
                         </button>
                     </Link>
                 </div>
-                <div className='sm:w-[443px] sm:mt-12'>
+                <div className='sm:w-[443px] w-[396px] mt-12'>
                     <img src={blogImg3} className='h-[290px] rounded-lg'></img>
-                    <div className='text-[#A7A7A7] text-[16px] text-left mt-6'>10 May 2024</div>
-                    <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] sm:mt-4'>Future of Agriculture: Discovering New Methods for Cost-Effect...</div>
-                    <div className='sm:h-[40px] text-[16px] font-light text-left sm:leading-[19px] sm:mt-4 sm:w-[256px]'>Explore cost-effective farming methods and cutting-edge...</div>
+                    <div className='text-[#A7A7A7] sm:text-[16px] text-[18px] text-left mt-6'>10 May 2024</div>
+                    <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] mt-4'>Future of Agriculture: Discovering New Methods for Cost-Effect...</div>
+                    <div className='sm:h-[40px] sm:text-[16px] font-light text-left sm:leading-[19px] mt-4 sm:w-[256px]'>Explore cost-effective farming methods and cutting-edge...</div>
                     <Link to='/blogs/blogdetails3'>
-                        <button className='sm:w-[201px] sm:h-[56px] bg-[#5D8424] sm:mt-6'>
-                            <span className='text-white text-[16px] font-normal ml-auto'>Read More</span>
+                        <button className='sm:w-[201px] w-[153px] sm:h-[56px] h-[48px] bg-[#5D8424] mt-6'>
+                            <span className='text-white sm:text-[16px] text-[18px] font-normal ml-auto'>Read More</span>
                             <img className='sm:w-6 sm:h-6 mr-auto' src={ButtonArrow} alt="Button Arrow" />
                         </button>
                     </Link>

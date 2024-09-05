@@ -10,15 +10,15 @@ import { Link } from 'react-router-dom'
 function BlogDetailPage1() {
 
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
 
   return (
     <div className='sm:mx-8 mx-4 mt-[40px]'>
       <img className='sm:block hidden' src={BlogsBanner1}></img>
       <img className='sm:hidden block' src={blogsBannerResp}></img>
-      <div className='sm:text-[40px] font-medium text-left mt-6'>Exploring the Future of Farming: Top Agricultural Software Solutions for Modern Farmers</div>
-      
+      <div className='sm:text-[40px] text-[32px] font-medium text-left sm:mt-6 mt-8'>Exploring the Future of Farming: Top Agricultural Software Solutions for Modern Farmers</div>
+
       <div className='text-[16px] font-light text-left sm:leading-7 mt-6'>
         Exploring the future of farming requires delving into the latest agricultural
         software solutions that are transforming the industry. These tools are designed to
@@ -27,7 +27,7 @@ function BlogDetailPage1() {
         software solutions for modern farmers:
       </div>
 
-      <div className='text-[24px] text-left sm:mt-[56px]'>1. Farm Management Software</div>
+      <div className='text-[24px] text-left sm:mt-[56px] mt-8'>1. Farm Management Software</div>
       <div className='text-[16px] font-light sm:leading-7 text-left mt-6'>Agrivi: Agrivi offers comprehensive farm management software that helps
         farmers monitor all aspects of their operations, from planning and planting to
         harvesting and sales. It provides data-driven insights and tools for crop
@@ -38,7 +38,7 @@ function BlogDetailPage1() {
         manage financials. It uses satellite imagery to provide real-time insights into crop
         conditions, helping farmers make informed decisions.</div>
 
-      <div className='text-[24px] text-left sm:mt-[56px]'>2. Precision Agriculture Software</div>
+      <div className='text-[24px] text-left sm:mt-[56px] mt-8'>2. Precision Agriculture Software</div>
       <div className='text-[16px] font-light sm:leading-7 text-left mt-6'>
         John Deere Operations Center: This software platform enables precision
         agriculture by allowing farmers to collect and analyze data from their equipment.
@@ -52,7 +52,7 @@ function BlogDetailPage1() {
         GPS-guided planting.
       </div>
 
-      <div className='text-[24px] text-left sm:mt-[56px]'>3. Crop Monitoring and Predictive Analytics</div>
+      <div className='text-[24px] text-left sm:mt-[56px] mt-8'>3. Crop Monitoring and Predictive Analytics</div>
       <div className='text-[16px] font-light sm:leading-7 text-left mt-6'>
         Climate FieldView: Climate FieldView combines data from various sources,
         including weather stations, soil sensors, and satellite imagery, to provide farmers
@@ -68,7 +68,7 @@ function BlogDetailPage1() {
 
       </div>
 
-      <div className='text-[24px] text-left sm:mt-[56px]'>4. Livestock Management Software</div>
+      <div className='text-[24px] text-left sm:mt-[56px] mt-8'>4. Livestock Management Software</div>
       <div className='text-[16px] font-light sm:leading-7 text-left mt-6'>
         CattleMax: Designed specifically for cattle ranchers, CattleMax offers tools for
         managing herd data, tracking health and breeding, and maintaining records on
@@ -81,7 +81,7 @@ function BlogDetailPage1() {
         for crop planning, financial management, and record-keeping.
       </div>
 
-      <div className='text-[24px] text-left sm:mt-[56px]'>5. Supply Chain and Traceability Solutions</div>
+      <div className='text-[24px] text-left sm:mt-[56px] mt-8'>5. Supply Chain and Traceability Solutions</div>
       <div className='text-[16px] font-light sm:leading-7 text-left mt-6'>
         AgriDigital: AgriDigital provides a platform for managing the grain supply chain,
         from farm to market. It includes tools for tracking grain quality, managing
@@ -94,7 +94,7 @@ function BlogDetailPage1() {
         certifications, and track product traceability from farm to market.
       </div>
 
-      <div className='text-[24px] text-left sm:mt-[56px]'>6. Irrigation Management Software</div>
+      <div className='text-[24px] text-left sm:mt-[56px] mt-8'>6. Irrigation Management Software</div>
       <div className='text-[16px] font-light sm:leading-7 text-left mt-6'>
         SmartFarm: SmartFarm offers advanced irrigation management tools that help
         farmers optimize water use. It integrates data from weather forecasts, soil
@@ -106,7 +106,7 @@ function BlogDetailPage1() {
         yields, and reduce costs.
       </div>
 
-      <div className='text-[24px] text-left sm:mt-[56px]'>7. Marketplaces and E-Commerce Platforms</div>
+      <div className='text-[24px] text-left sm:mt-[56px] mt-8'>7. Marketplaces and E-Commerce Platforms</div>
       <div className='text-[16px] font-light sm:leading-7 text-left mt-6'>
         FarmLead: FarmLead is an online grain marketplace that connects farmers with
         buyers, helping them get the best prices for their crops. The platform offers tools
@@ -118,7 +118,7 @@ function BlogDetailPage1() {
         tools for managing cash flow and reducing the risks associated with crop sales.
       </div>
 
-      <div className='text-[24px] text-left sm:mt-[56px]'>Conclusion</div>
+      <div className='text-[24px] text-left sm:mt-[56px] mt-8'>Conclusion</div>
       <div className='text-[16px] font-light sm:leading-7 text-left mt-6'>
         These agricultural software solutions represent the future of farming, enabling farmers
         to leverage data, automation, and digital tools to enhance their operations. By adopting
@@ -126,41 +126,41 @@ function BlogDetailPage1() {
         sustainable farming practices that meet the challenges of a growing global population.
       </div>
 
-      <div className='text-[32px] font-medium text-left sm:mt-[104px]'>Similar Blogs</div>
+      <div className='text-[32px] font-medium text-left sm:mt-[104px] mt-[72px]'>Similar Blogs</div>
 
-      <div className='grid grid-cols-3 gap-6'>
-        <div className='sm:w-[443px] sm:mt-12'>
+      <div className='grid sm:grid-cols-3 grid-cols-1 gap-6'>
+        <div className='sm:w-[443px] w-[396px] mt-12'>
           <img src={blogImg1} className='h-[290px] rounded-lg'></img>
-          <div className='text-[#A7A7A7] text-[16px] text-left mt-6'>10 May 2024</div>
-          <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] sm:mt-4'>Exploring the Future of Farming: Top Agricultural Software...</div>
-          <div className='sm:h-[40px] text-[16px] font-light text-left sm:leading-[19px] sm:mt-4 sm:w-[256px]'>Uncover the best software solutions for today's tech-savvy farmers.</div>
+          <div className='text-[#A7A7A7] sm:text-[16px] text-[18px] text-left mt-6'>10 May 2024</div>
+          <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] mt-4'>Exploring the Future of Farming: Top Agricultural Software...</div>
+          <div className='sm:h-[40px] sm:text-[16px] text-[18px] font-light text-left sm:leading-[19px] mt-4 sm:w-[256px]'>Uncover the best software solutions for today's tech-savvy farmers.</div>
           <Link to='/blogs/blogdetails1'>
-            <button className='sm:w-[201px] sm:h-[56px] bg-[#5D8424] sm:mt-6'>
-              <span className='text-white text-[16px] font-normal ml-auto'>Read More</span>
+            <button className='sm:w-[201px] w-[153px] sm:h-[56px] h-[48px] bg-[#5D8424] mt-6'>
+              <span className='text-white sm:text-[16px] font-normal ml-auto'>Read More</span>
               <img className='sm:w-6 sm:h-6 mr-auto' src={ButtonArrow} alt="Button Arrow" />
             </button>
           </Link>
         </div>
-        <div className='sm:w-[443px] sm:mt-12'>
+        <div className='sm:w-[443px] w-[396px] mt-12'>
           <img src={blogImg2} className='h-[290px] rounded-lg'></img>
-          <div className='text-[#A7A7A7] text-[16px] text-left mt-6'>10 May 2024</div>
-          <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] sm:mt-4'>The Importance of Choosing the Right Types of Seed Storage...</div>
-          <div className='sm:h-[40px] text-[16px] font-light text-left sm:leading-[19px] sm:mt-4 sm:w-[256px]'>Learn the importance of proper seed storage and handling equipment...</div>
+          <div className='text-[#A7A7A7] sm:text-[16px] text-[18px] text-left mt-6'>10 May 2024</div>
+          <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] mt-4'>The Importance of Choosing the Right Types of Seed Storage...</div>
+          <div className='sm:h-[40px] sm:text-[16px] text-[18px] font-light text-left sm:leading-[19px] mt-4 sm:w-[256px]'>Learn the importance of proper seed storage and handling equipment...</div>
           <Link to='/blogs/blogdetails2'>
-            <button className='sm:w-[201px] sm:h-[56px] bg-[#5D8424] sm:mt-6'>
-              <span className='text-white text-[16px] font-normal ml-auto'>Read More</span>
+            <button className='sm:w-[201px] w-[153px] sm:h-[56px] h-[48px] bg-[#5D8424] mt-6'>
+              <span className='text-white sm:text-[16px] font-normal ml-auto'>Read More</span>
               <img className='sm:w-6 sm:h-6 mr-auto' src={ButtonArrow} alt="Button Arrow" />
             </button>
           </Link>
         </div>
-        <div className='sm:w-[443px] sm:mt-12'>
+        <div className='sm:w-[443px] w-[396px] mt-12'>
           <img src={blogImg3} className='h-[290px] rounded-lg'></img>
-          <div className='text-[#A7A7A7] text-[16px] text-left mt-6'>10 May 2024</div>
-          <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] sm:mt-4'>Future of Agriculture: Discovering New Methods for Cost-Effect...</div>
-          <div className='sm:h-[40px] text-[16px] font-light text-left sm:leading-[19px] sm:mt-4 sm:w-[256px]'>Explore cost-effective farming methods and cutting-edge...</div>
+          <div className='text-[#A7A7A7] sm:text-[16px] text-[18px] text-left mt-6'>10 May 2024</div>
+          <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] mt-4'>Future of Agriculture: Discovering New Methods for Cost-Effect...</div>
+          <div className='sm:h-[40px] sm:text-[16px] font-light text-left sm:leading-[19px] mt-4 sm:w-[256px]'>Explore cost-effective farming methods and cutting-edge...</div>
           <Link to='/blogs/blogdetails3'>
-            <button className='sm:w-[201px] sm:h-[56px] bg-[#5D8424] sm:mt-6'>
-              <span className='text-white text-[16px] font-normal ml-auto'>Read More</span>
+            <button className='sm:w-[201px] w-[153px] sm:h-[56px] h-[48px] bg-[#5D8424] mt-6'>
+              <span className='text-white sm:text-[16px] text-[18px] font-normal ml-auto'>Read More</span>
               <img className='sm:w-6 sm:h-6 mr-auto' src={ButtonArrow} alt="Button Arrow" />
             </button>
           </Link>
