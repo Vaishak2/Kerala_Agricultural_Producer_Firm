@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'banner-image': "url('/src/Assets/Banner-Image/Banner.png')",
-        'about-banner':"url('/src/Assets/Banner-Image/AboutusBnr.png')"
+        'about-banner':"url('/src/Assets/Banner-Image/AboutusBnr.png')",
+        'Responsive-banner':"url('/src/Assets/Banner-Image/bannerForResponsive.png')"
       }),
       fontFamily: {
         signika: ['Signika', 'sans-serif'],
