@@ -2,13 +2,14 @@ import React from 'react'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import LeftScrollArrow from '../../../Assets/Icon/Group 14.png'
-import RightScrollArrow from '../../../Assets/Icon/Group 13.png'
+import LeftScrollArrow from '../../../Assets/Icon/left.png'
+import RightScrollArrow from '../../../Assets/Icon/right.png'
 import ButtonArrow from "../../../Assets/Icon/arrow_outward.svg";
 import blogImg1 from "../../../Assets/images/blogImages/blogImg1.png"
 import blogImg2 from "../../../Assets/images/blogImages/blogImg2.png"
 import blogImg3 from "../../../Assets/images/blogImages/blogImg3.png"
 import './BlogsCarousel.css'
+import { Link } from 'react-router-dom';
 
 
 const NextArrow = (props) => {
@@ -47,7 +48,7 @@ const settings = {
         {
             breakpoint: 768, // Adjust the breakpoint value as needed
             settings: {
-                slidesToShow: 3,
+                slidesToShow: 1,
                 slidesToScroll: 1
             }
         }
@@ -59,45 +60,53 @@ const settings = {
 
 function BlogsCarousel() {
     return (
-        <div className='sm:mx-8'>
-            <div className='text-[48px] font-medium sm:mt-[104px]'>Our Blogs</div>
-            <div className='sm:w-[798px] mx-auto text-[16px] leading-8 font-light sm:mt-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. it has been the industry's standard. Lorem Ipsum is simply dummy text of the printing and typesetting industry. it has been the industry's standard</div>
+
+        <div className='sm:px-8 px-4 bg-[#FFFFFF] sm:mt-[104px] mt-[72px] sm:pb-[84px]'>
+            <div className='sm:text-[48px] text-[32px] font-medium sm:pt-[104px] pt-[72px]'>Our Blogs</div>
+            <div className='sm:w-[798px] w-[396px] mx-auto text-[16px] sm:leading-8 leading-7 font-light sm:mt-6 mt-4'>Stay informed with our agricultural blog, featuring expert tips, industry insights, and practical advice to enhance your farming operations and drive success.</div>
 
 
-            <div className="slider-container sm:mt-[56px]">
+
+            <div className="slider-container sm:mt-[56px] mt-[120px]">
                 <Slider {...settings}>
 
-                    <div className='sm:w-[443px]'>
+                    <div className='sm:w-[443px] w-[396px]'>
                         <img src={blogImg1} className='h-[290px] rounded-lg'></img>
                         <div className='text-[#A7A7A7] text-[16px] text-left mt-6'>10 May 2024</div>
-                        <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] sm:mt-4'>Advantages of Paper Trading for the Beginning Investor</div>
-                        <div className='sm:h-[40px] text-[16px] font-light text-left sm:leading-[19px] sm:mt-4 sm:w-[256px]'>Paper Trading refers to the practice of simulating stock trading without...</div>
-                        <button className='sm:w-[201px] sm:h-[56px] bg-[#5D8424] sm:mt-6'>
-                            <span className='text-white text-[16px] font-normal ml-auto'>Read More</span>
-                            <img className='sm:w-6 sm:h-6 mr-auto' src={ButtonArrow} alt="Button Arrow" />
-                        </button>
+                        <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] sm:mt-4 mt-6'>Exploring the Future of Farming: Top Agricultural Software...</div>
+                        <div className='sm:h-[40px] text-[16px] font-light text-left sm:leading-[19px] leading-7 mt-4 sm:w-[256px]'>Uncover the best software solutions for today's tech-savvy farmers.</div>
+                        <Link to='/blogs/blogdetails1'>
+                            <button className='sm:w-[201px] w-[153px] sm:h-[56px] h-[48px] bg-[#5D8424] sm:mt-6 mt-8'>
+                                <span className='text-white text-[16px] font-normal ml-auto'>Read More</span>
+                                <img className='sm:w-6 sm:h-6 mr-auto' src={ButtonArrow} alt="Button Arrow" />
+                            </button>
+                        </Link>
                     </div>
 
-                    <div className='sm:w-[443px]'>
+                    <div className='sm:w-[443px] w-[396px]'>
                         <img src={blogImg2} className='h-[290px] rounded-lg'></img>
                         <div className='text-[#A7A7A7] text-[16px] text-left mt-6'>10 May 2024</div>
-                        <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] sm:mt-4'>Advantages of Paper Trading for the Beginning Investor</div>
-                        <div className='sm:h-[40px] text-[16px] font-light text-left sm:leading-[19px] sm:mt-4 sm:w-[256px]'>Paper Trading refers to the practice of simulating stock trading without...</div>
-                        <button className='sm:w-[201px] sm:h-[56px] bg-[#5D8424] sm:mt-6'>
-                            <span className='text-white text-[16px] font-normal ml-auto'>Read More</span>
-                            <img className='sm:w-6 sm:h-6 mr-auto' src={ButtonArrow} alt="Button Arrow" />
-                        </button>
+                        <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] sm:mt-4 mt-6'>The Importance of Choosing the Right Types of Seed Storage...</div>
+                        <div className='sm:h-[40px] text-[16px] font-light text-left sm:leading-[19px] leading-7 sm:mt-4 sm:w-[256px]'>Learn the importance of proper seed storage and handling equipment...</div>
+                        <Link to='/blogs/blogdetails2'>
+                            <button className='sm:w-[201px] w-[153px] sm:h-[56px] h-[48px] bg-[#5D8424] sm:mt-6 mt-8'>
+                                <span className='text-white text-[16px] font-normal ml-auto'>Read More</span>
+                                <img className='sm:w-6 sm:h-6 mr-auto' src={ButtonArrow} alt="Button Arrow" />
+                            </button>
+                        </Link>
                     </div>
 
-                    <div className='sm:w-[443px]'>
+                    <div className='sm:w-[443px] w-[396px]'>
                         <img src={blogImg3} className='h-[290px] rounded-lg'></img>
                         <div className='text-[#A7A7A7] text-[16px] text-left mt-6'>10 May 2024</div>
-                        <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] sm:mt-4'>Advantages of Paper Trading for the Beginning Investor</div>
-                        <div className='sm:h-[40px] text-[16px] font-light text-left sm:leading-[19px] sm:mt-4 sm:w-[256px]'>Paper Trading refers to the practice of simulating stock trading without...</div>
-                        <button className='sm:w-[201px] sm:h-[56px] bg-[#5D8424] sm:mt-6'>
-                            <span className='text-white text-[16px] font-normal ml-auto'>Read More</span>
-                            <img className='sm:w-6 sm:h-6 mr-auto' src={ButtonArrow} alt="Button Arrow" />
-                        </button>
+                        <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] sm:mt-4 mt-6'>Future of Agriculture: Discovering New Methods for Cost-Effect...</div>
+                        <div className='sm:h-[40px] text-[16px] font-light text-left sm:leading-[19px] leading-7 sm:mt-4 sm:w-[256px]'>Explore cost-effective farming methods and cutting-edge...</div>
+                        <Link to='/blogs/blogdetails3'>
+                            <button className='sm:w-[201px] w-[153px] sm:h-[56px] h-[48px] bg-[#5D8424] sm:mt-6 mt-8'>
+                                <span className='text-white text-[16px] font-normal ml-auto'>Read More</span>
+                                <img className='sm:w-6 sm:h-6 mr-auto' src={ButtonArrow} alt="Button Arrow" />
+                            </button>
+                        </Link>
                     </div>
 
                 </Slider>
