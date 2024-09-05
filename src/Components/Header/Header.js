@@ -45,7 +45,7 @@ function Header() {
           ))}
         </div>
 
-        <button className='GetInTouchBtn flex sm:ml-[50px] ml-[119px] bg-[#5D8424 sm:px-12 px-6 sm:py-4 py-3 mt-3 sm:mt-0 rounded-[48px] h-[48px] sm:h-[56px] bg-[#5D8424]'>
+        <button className='GetInTouchBtn flex sm:ml-[50px] ml-[106px] bg-[#5D8424 sm:px-12 px-6 sm:py-4 py-3 mt-3 sm:mt-0 rounded-[48px] h-[48px] sm:h-[56px] bg-[#5D8424]'>
           <span className='text-white text-[16px] leading-5'>Get In Touch</span>
           <img className='sm:w-6 sm:h-6' src={ButtonArrow} alt="Button Arrow" />
         </button>
