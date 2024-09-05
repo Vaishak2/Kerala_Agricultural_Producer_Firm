@@ -15,6 +15,7 @@ import BlogDetailPage3 from './Pages/BlogPage/BlogDetailPage3';
 import ServicesPage from './Pages/ServicesPage/ServicesPage';
 import CareerPage from './Pages/CareerPage/CareerPage';
 import ProductsPage from './Pages/ProductsPage/ProductsPage';
+import ApplicationForm from './Pages/Application/ApplicationForm';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
 
           <Route path='/services' Component={ServicesPage}/>
           <Route path='/career' Component={CareerPage}/>
+          <Route path="/career/:id" element={<ApplicationForm />} />
 
         </Routes>
         <Footer />
