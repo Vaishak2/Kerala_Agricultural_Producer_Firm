@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import BlogsBanner1 from "../../Assets/Banner-Image/blogsBanner1.png"
 import blogImg1 from '../../Assets/images/blogImages/blogImg1.png'
 import blogImg2 from '../../Assets/images/blogImages/blogImg2.png'
@@ -7,6 +7,11 @@ import ButtonArrow from "../../Assets/Icon/arrow_outward.svg";
 import { Link } from 'react-router-dom'
 
 function BlogDetailPage2() {
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+      },[])
+
     return (
         <div className='mx-8 mt-[40px]'>
             <img src={BlogsBanner1}></img>

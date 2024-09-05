@@ -14,6 +14,7 @@ import BlogDetailPage3 from './Pages/BlogPage/BlogDetailPage3';
 
 import ServicesPage from './Pages/ServicesPage/ServicesPage';
 import CareerPage from './Pages/CareerPage/CareerPage';
+import ProductsPage from './Pages/ProductsPage/ProductsPage';
 
 
 function App() {
@@ -31,6 +32,8 @@ function App() {
           <Route path='/blogs/blogDetails1' Component={BlogDetailPage1}/>
           <Route path='/blogs/blogDetails2' Component={BlogDetailPage2}/>
           <Route path='/blogs/blogDetails3' Component={BlogDetailPage3}/>
+
+          <Route path='/products' Component={ProductsPage}/>
 
           <Route path='/services' Component={ServicesPage}/>
           <Route path='/career' Component={CareerPage}/>
