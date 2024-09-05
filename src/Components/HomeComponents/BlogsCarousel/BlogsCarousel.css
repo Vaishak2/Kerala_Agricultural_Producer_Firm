@@ -1,0 +1,7 @@
+.slider-container .slick-slide {
+    padding: 0 32px; /* Adds 12px padding on left and right to create a 24px gap between slides */
+  }
+  
+  .slider-container .slick-list {
+    margin: 0 px; /* Adjusts the margin of the slider to keep the overall layout centered */
+  }

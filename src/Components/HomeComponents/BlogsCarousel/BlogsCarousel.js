@@ -67,13 +67,13 @@ function BlogsCarousel() {
 
 
 
-            <div className="slider-container sm:mt-[56px] mt-[120px]">
+            <div className="slider-container sm:mt-[56px] mt-[120px]  ">
                 <Slider {...settings}>
 
                     <div className='sm:w-[443px] w-[396px]'>
-                        <img src={blogImg1} className='h-[290px] rounded-lg'></img>
-                        <div className='text-[#A7A7A7] text-[16px] text-left mt-6'>10 May 2024</div>
-                        <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] sm:mt-4 mt-6'>Exploring the Future of Farming: Top Agricultural Software...</div>
+                        <img src={blogImg1} className='sm:w-fit h-[290px] rounded-lg'></img>
+                        <div className='text-[#A7A7A7] text-[16px] sm:w-[400px] text-left mt-6'>10 May 2024</div>
+                        <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] sm:w-[400px] sm:mt-4 mt-6'>Exploring the Future of Farming: Top Agricultural Software...</div>
                         <div className='sm:h-[40px] text-[16px] font-light text-left sm:leading-[19px] leading-7 mt-4 sm:w-[256px]'>Uncover the best software solutions for today's tech-savvy farmers.</div>
                         <Link to='/blogs/blogdetails1'>
                             <button className='sm:w-[201px] w-[153px] sm:h-[56px] h-[48px] bg-[#5D8424] sm:mt-6 mt-8'>

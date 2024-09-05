@@ -69,28 +69,28 @@ function ProductsCarousel() {
       <div className="slider-container sm:mt-[56px] mt-[120px]">
         <Slider {...settings}>
           <div className='sm:w-[326px] w-[396px] sm:h-[374px] h-[386px] bg-[#FFFFFF] rounded-2xl'>
-            <img src={productImg1} className='sm:w-[326px] w-[396px] sm:h-[301px] h-[312px] rounded-t-2xl'></img>
+            <img src={productImg1} className=' w-[396px] sm:h-[301px] h-[312px] rounded-t-2xl'></img>
             <div className='text-left p-6'>
               <div className='text-[18px] font-medium'>Fertilizer</div>
             </div>
           </div>
 
           <div className='sm:w-[326px] w-[396px] sm:h-[374px] h-[386px] bg-[#FFFFFF] rounded-2xl'>
-            <img src={productImg2} className='sm:w-[326px] w-[396px] sm:h-[301px] h-[312px] rounded-t-2xl'></img>
+            <img src={productImg2} className=' w-[396px] sm:h-[301px] h-[312px] rounded-t-2xl'></img>
             <div className='text-left p-6'>
               <div className='text-[18px] font-medium'>Pesticides</div>
             </div>
           </div>
 
           <div className='sm:w-[326px] w-[396px] sm:h-[374px] h-[386px] bg-[#FFFFFF] rounded-2xl'>
-            <img src={productImg3} className='sm:w-[326px] w-[396px] sm:h-[301px] h-[312px] rounded-t-2xl'></img>
+            <img src={productImg3} className=' w-[396px] sm:h-[301px] h-[312px] rounded-t-2xl'></img>
             <div className='text-left p-6'>
               <div className='text-[18px] font-medium'>Seeds</div>
             </div>
           </div>
 
           <div className='sm:w-[326px] w-[396px] sm:h-[374px] h-[386px] bg-[#FFFFFF] rounded-2xl'>
-            <img src={productImg4} className='sm:w-[326px] w-[396px] sm:h-[301px] h-[312px] rounded-t-2xl'></img>
+            <img src={productImg4} className=' w-[396px] sm:h-[301px] h-[312px] rounded-t-2xl'></img>
             <div className='text-left p-6'>
               <div className='text-[18px] font-medium'>Equipment</div>
             </div>
