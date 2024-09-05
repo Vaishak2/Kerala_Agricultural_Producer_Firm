@@ -14,11 +14,7 @@ function Footer() {
     {
       title: '',
       links: ['About', 'Our Story', 'Benefits', 'Team', 'Careers'],
-    },
-    {
-      title: '',
-      links: ['Help', 'FAQs', 'Contact Us'],
-    },
+    }
   ];
 
   const socialIcons = [
@@ -43,24 +39,25 @@ function Footer() {
           <h2 className='text-[24px] sm:text-justify sm:leading-[30px]'>
             Subscribe to our <br className='sm:leading-[30px]' /> newsletter
           </h2>
-          <form className="sm:mt-[28px] flex sm:w-[289px] sm:h-[51px]">
+          <form className="sm:mt-[28px] flex sm:w-[289px] sm:h-[51px]" onSubmit={(e) => e.preventDefault()}>
             <input
               type="email"
+              name="email"
               placeholder="Email address"
-              className="flex-grow px-3 py-2 rounded-tl-[8px]  outline-none border-b"
+              className="flex-grow px-3 py-2 rounded-tl-[8px] outline-none border-b"
             />
             <div
               type="submit"
-              className="flex items-center justify-center sm:w-[50px] cursor-pointer sm:h-[50px] rounded-tl-[8px] rounded-tr-[8px] bg-[#5D8424]"
+              className="flex items-center justify-center sm:w-[50px] cursor-pointer sm:h-[50px] rounded-tr-[8px] bg-[#5D8424]"
             >
-              <img src={arrowButton} alt="" />
+              <img src={arrowButton} alt="Submit" />
             </div>
           </form>
         </div>
 
         <div className="flex sm:mx-auto w-fit text-justify ">
           {linkSections.map((section, idx) => (
-            <div key={idx} className={`space-y-4 ${idx === 0 ? 'sm:ml-[100px]' : idx === 1 ? 'sm:ml-[172px]' : 'sm:ml-[171px]'}`}>
+            <div key={idx} className={`space-y-4 ${idx === 0 ? 'sm:ml-[260px]' : idx === 1 ? 'sm:ml-[172px]' : ''}`}>
               {section.links.map((link, i) => (
                 <a key={i} href="#" className={`block font-light text-[16px] text-[#2A2E35] hover:underline hover:font-normal ${i > 0 ? 'sm:mt-[20px]' : ''}`}>
                   {link}

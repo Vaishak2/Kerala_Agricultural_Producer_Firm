@@ -6,10 +6,15 @@ import HomePage from './Pages/HomePage/HomePage';
 import Footer from './Components/Footer/Footer';
 import Gallery from './Components/Gallery/Gallery';
 import AboutPage from './Pages/AboutPage/AboutPage';
+
 import BlogPage from './Pages/BlogPage/BlogPage';
 import BlogDetailPage1 from './Pages/BlogPage/BlogDetailPage1';
 import BlogDetailPage2 from './Pages/BlogPage/BlogDetailPage2';
 import BlogDetailPage3 from './Pages/BlogPage/BlogDetailPage3';
+
+import ServicesPage from './Pages/ServicesPage/ServicesPage';
+import CareerPage from './Pages/CareerPage/CareerPage';
+
 
 function App() {
   return (
@@ -21,10 +26,15 @@ function App() {
           <Route path='/' exact Component={HomePage} />
           <Route path='/gallery' Component={Gallery}/>
           <Route path='/aboutUs' Component={AboutPage}/>
+
           <Route path='/blogs' Component={BlogPage}/>
           <Route path='/blogs/blogDetails1' Component={BlogDetailPage1}/>
           <Route path='/blogs/blogDetails2' Component={BlogDetailPage2}/>
           <Route path='/blogs/blogDetails3' Component={BlogDetailPage3}/>
+
+          <Route path='/services' Component={ServicesPage}/>
+          <Route path='/career' Component={CareerPage}/>
+
         </Routes>
         <Footer />
       </Router>
