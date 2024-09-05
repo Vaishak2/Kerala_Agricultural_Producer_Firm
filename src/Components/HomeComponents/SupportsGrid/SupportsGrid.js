@@ -6,7 +6,7 @@ import hands from '../../../Assets/logos/hands.png'
 
 function SupportsGrid() {
     return (
-        <div className='bg-[#FFFFFF] sm:mx-8 sm:h-[375px] sm:mt-[40px] sm:pt-[56px] rounded-2xl'>
+        <div className='bg-[#FFFFFF] sm:mx-8 sm:h-[375px] w-[396px] sm:w-[1376px] mx-auto sm:mt-[40px] mt-8 sm:pt-[56px] rounded-2xl'>
             <div className='sm:w-[1304px] w-[396px]  ml-4 sm:h-[262px] sm:mx-[36px] sm:flex sm:grid-cols-4 py-[55px]'>
                 <div className='sm:w-[306px] w-[274px] sm:ml-0 ml-[61px] sm:border-r-[1px] '>
                     <div className='sm:w-[274px] w-[274px] sm:ml-0  sm:h-[230px] sm:mt-4'>

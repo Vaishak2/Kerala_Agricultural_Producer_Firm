@@ -10,7 +10,7 @@ import ServicesPage from './Pages/ServicesPage/ServicesPage';
 
 function App() {
   return (
-    <div className="App font-signika w-[1440px] bg-[#F8F8F8] mx-auto">
+    <div className="App font-signika sm:w-[1440px] bg-[#F8F8F8] mx-auto">
       <Router>
 
         <Header />
