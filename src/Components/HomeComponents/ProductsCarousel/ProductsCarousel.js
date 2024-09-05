@@ -60,9 +60,11 @@ const settings = {
 
 function ProductsCarousel() {
   return (
+
     <div className='sm:mx-8 mx-4'>
       <div className='sm:text-[48px] text-[32px] font-medium sm:mt-[40px] mt-[48px]'>Our Products</div>
       <div className='sm:w-[764px] mx-auto text-[16px] sm:leading-8 leading-7 font-light sm:mt-6 mt-4'>Elit ultricies adipiscing ornare. Rutrum sapien aliquet mollis. Pretium condimentum. Cursus elit hac fames laoreet non nec facilisis quis dui.</div>
+
 
       <div className="slider-container sm:mt-[56px] mt-[120px]">
         <Slider {...settings}>

@@ -12,7 +12,7 @@ function SupportsGrid() {
                     <div className='sm:w-[274px] w-[274px] sm:ml-0  sm:h-[230px] sm:mt-4'>
                         <img src={trackter} className='sm:h-[64px] h-[48px] sm:w-[64px] w-[48px] mx-auto'></img>
                         <div className='text-[24px] font-medium mt-4'>Agricultural support</div>
-                        <div className='text-[16px] font-light leading-8 sm:mt-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. it has been the industry's standard</div>
+                        <div className='text-[16px] font-light leading-8 sm:mt-4'>Expert guidance, quality seeds, and techniques to boost productivity and sustainability in agriculture.</div>
                     </div>
                 </div>
 
@@ -22,7 +22,7 @@ function SupportsGrid() {
                     <div className='sm:w-[274px] w-[274px]   sm:h-[230px] sm:mt-4 sm:mx-auto'>
                         <img src={persantage} className='sm:h-[64px] h-[48px] w-[48px] sm:w-[64px] mx-auto'></img>
                         <div className='text-[24px] font-medium mt-4'>Fair market prices</div>
-                        <div className='text-[16px] font-light leading-8 sm:mt-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. it has been the industry's standard</div>
+                        <div className='text-[16px] font-light leading-8 sm:mt-4'>Leverage market trends and tech for fair crop pricing. Maximize profits and thrive in agriculture today.</div>
                     </div>
                 </div>
 
@@ -32,7 +32,7 @@ function SupportsGrid() {
                     <div className='sm:w-[274px] w-[274px]   sm:h-[230px] sm:mt-4 mx-auto sm:mx-auto'>
                         <img src={plant} className='sm:h-[64px] h-[48px] w-[48px] sm:w-[64px] mx-auto'></img>
                         <div className='text-[24px] font-medium mt-4'>Advanced technologies</div> 
-                        <div className='text-[16px] font-light leading-8 sm:mt-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. it has been the industry's standard</div>
+                        <div className='text-[16px] font-light leading-8 sm:mt-4'>Advanced technologies boost productivity, keeping you ahead in farming</div>
                     </div>
                 </div>
 
@@ -42,7 +42,8 @@ function SupportsGrid() {
                 <div className='sm:w-[274px] w-[274px] ml-[64px]  sm:h-[230px] sm:mt-4 sm:ml-auto'>
                         <img src={hands} className='sm:h-[64px] h-[48px] w-[48px] sm:w-[64px] mx-auto'></img>
                         <div className='text-[24px] font-medium mt-4'>Financial services</div>
-                        <div className='text-[16px] font-light leading-8 sm:mt-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. it has been the industry's standard</div>
+                        <div className='text-[16px] font-light leading-8 sm:mt-4'>Our financial expertise and tools empower you to make informed decisions and manage risks effectively.
+</div>
                     </div>
                 </div>
             </div>
