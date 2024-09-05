@@ -1,5 +1,6 @@
 import React from 'react'
 import bottomBanner from '../../../Assets/bottomBanner.png'
+
 import bottomBanner2 from '../../../Assets/BottomBannerImg.png'
 
 function BottomBanner() {
@@ -16,6 +17,7 @@ function BottomBanner() {
          className='sm:mt-[104px] w-[396px] h-[164px] mx-auto mt-[72px]' />
     </div>
     </div>
+
 
   )
 }

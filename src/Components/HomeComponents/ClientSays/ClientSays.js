@@ -22,9 +22,9 @@ and impact.
           <div className='sm:w-[443px] bg-[#F8F8F8] sm:h-[368px] rounded-t-[32px] rounded-bl-[32px] text-black sm:pt-12'>
 
             <div className=''>
-              <h1 className='sm:text-[20px]'>Madhav Anil</h1>
+              <h1 className='sm:text-[20px]'>Vijay Ashok</h1>
               <h2 className='sm:text-[16px] sm:leading-6 sm:font-light sm:mt-1'>Manager</h2>
-              <p className='sm:w-[347px] mx-auto sm:text-[16px] sm:leading-8 sm:font-light sm:mt-8'>The freshness and flavor of the product is extraordinary. You can taste the care and attention that goes into every crop. It's the best farm-to-table experience we've ever had.</p>
+              <p className='sm:w-[347px] mx-auto sm:text-[16px] sm:leading-8 sm:font-light sm:mt-8'>“KGAPCO's services have transformed our agriculture. Their commitment to sustainability and technology delivers exceptional results. We are proud to partner with them.”</p>
             </div>
             <img className='sm:w-[169px] sm:h-[166px] sm:translate-x-[126px] sm:translate-y-[-141px]' src={BgVector} alt="" />
 
@@ -43,7 +43,7 @@ and impact.
             <div className=''>
               <h1 className='sm:text-[20px]'>Madhav Anil</h1>
               <h2 className='sm:text-[16px] sm:leading-6 sm:font-light sm:mt-1'>Manager</h2>
-              <p className='w-[347px]  mx-auto sm:text-[16px] text-[16px] sm:leading-8 leading-8 font-light mt-8'>The freshness and flavor of the product is extraordinary. You can taste the care and attention that goes into every crop. It's the best farm-to-table experience we've ever had.</p>
+              <p className='w-[347px]  mx-auto sm:text-[16px] text-[16px] sm:leading-8 leading-8 font-light mt-8'>“KGAPCO has transformed our business. Their innovative approach to agriculture has improved efficiency and quality. We've seen major gains in productivity and profitability, and we highly recommend their services.”</p>
             </div>
             <img className='w-[169px] h-[166px] translate-x-[126px] translate-y-[-141px]' src={BgVector} alt="" />
 
@@ -60,9 +60,9 @@ and impact.
           <div className='sm:w-[443px] bg-[#F8F8F8] sm:h-[368px] rounded-t-[32px] rounded-bl-[32px] text-black sm:pt-12'>
 
             <div className=''>
-              <h1 className='sm:text-[20px]'>Madhav Anil</h1>
+              <h1 className='sm:text-[20px]'>John Alexander</h1>
               <h2 className='sm:text-[16px] sm:leading-6 sm:font-light sm:mt-1'>Manager</h2>
-              <p className='sm:w-[347px] mx-auto sm:text-[16px] sm:leading-8 sm:font-light sm:mt-8'>The freshness and flavor of the product is extraordinary. You can taste the care and attention that goes into every crop. It's the best farm-to-table experience we've ever had.</p>
+              <p className='sm:w-[347px] mx-auto sm:text-[16px] sm:leading-8 sm:font-light sm:mt-8'>“KGAPCO's products are unmatched in freshness and flavor. Their dedication to excellence is evident in everything they do, from the quality seeds to their outstanding support. It's the best farm-to-table experience we've ever had.”</p>
             </div>
             <img className='sm:w-[169px] sm:h-[166px] sm:translate-x-[126px] sm:translate-y-[-141px]' src={BgVector} alt="" />
 

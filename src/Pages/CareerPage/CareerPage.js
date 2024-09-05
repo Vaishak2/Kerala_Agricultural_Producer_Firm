@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import searchIcon from '../../Assets/Icon/search.svg'
 import ArrowLeft from '../../Assets/Icon/arrow-left.svg'
 import ArrowRight from '../../Assets/Icon/arrow-right.svg'
@@ -83,6 +84,21 @@ const CareerPage = () => {
     const [searchTerm, setSearchTerm] = useState('');
     const [currentPage, setCurrentPage] = useState(1);
     const [jobsPerPage] = useState(5);
+    const navigate = useNavigate();
+
+
+
+    
+    const handleSearch = (e) => {
+        setSearchTerm(e.target.value);
+        setCurrentPage(1);
+    };
+
+    const handleApply = (jobId) => {
+        navigate(`/career/${jobId}`);
+    };
+    
+    const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
     useEffect(() => {
         const fetchJobs = async () => {
@@ -107,17 +123,10 @@ const CareerPage = () => {
         fetchJobs();
     }, [searchTerm, currentPage]);
 
-    const handleSearch = (e) => {
-        setSearchTerm(e.target.value);
-        setCurrentPage(1);
-    };
-
-    const paginate = (pageNumber) => setCurrentPage(pageNumber);
-
     return (
         <div className="container mx-auto px-4 md:px-60 py-8">
             <h1 className="text-5xl font-semibold mb-8 text-center">Current Openings</h1>
-            <div className="mb-6 flex w-full p-3 border border-gray-300 rounded-md">
+            <div className="mb-6 flex w-full  p-3 border border-gray-300 rounded-md">
                 <img
                     src={searchIcon}
                     alt='searchIcon'
@@ -132,7 +141,7 @@ const CareerPage = () => {
                 />
             </div>
             {jobs.map(job => (
-                <div key={job.id} className="bg-white  rounded-lg p-4 mb-4 flex justify-between items-center">
+                <div key={job.id} className="bg-white  rounded-lg p-4 mb-4 md:flex justify-between items-center">
                     <div className='text-left'>
                         <h3 className="text-xl font-semibold">{job.title}</h3>
                         <p>{job.location}</p>
@@ -142,7 +151,10 @@ const CareerPage = () => {
                         </div>
                     </div>
                     <div>
-                        <button className="bg-[#5D8424] text-white px-6 py-4 rounded-full">Apply ↗</button>
+                        <button 
+                         onClick={() => handleApply(job.id)}
+                        className="bg-[#5D8424] text-white px-12 md:my-0 my-5 md:px-6 py-4 rounded-full">Apply ↗
+                        </button>
                     </div>
                 </div>
             ))}
@@ -157,7 +169,7 @@ const CareerPage = () => {
                     </button>
                 ))}
             </div> */}
-            <div className="flex justify-end items-center space-x-2 mt-8">
+            <div className="flex md:justify-end justify-center items-center space-x-2 mt-8">
                 <button
                     onClick={() => paginate(currentPage - 1)}
                     disabled={currentPage === 1}
