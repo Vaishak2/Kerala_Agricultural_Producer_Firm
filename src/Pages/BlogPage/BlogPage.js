@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom'
 function BlogPage() {
     return (
         <div className='sm:px-8 px-4'>
-            <div className='sm:text-[48px] text-[32px] font-normal sm:mt-[40px]'>Latest posts & articles</div>
+            <div className='sm:text-[48px] text-[32px] font-normal sm:mt-[40px] mt-[48px]'>Latest posts & articles</div>
             <div className='grid sm:grid-cols-3 grid-cols-1 gap-6'>
                 <div className='sm:w-[443px] w-[396px] mt-12'>
                     <img src={blogImg1} className='h-[290px] rounded-lg'></img>

@@ -60,12 +60,14 @@ const settings = {
 
 function BlogsCarousel() {
     return (
-        <div className='sm:px-8 bg-[#FFFFFF] sm:mt-[104px] sm:pb-[84px]'>
-            <div className='text-[48px] font-medium sm:pt-[104px]'>Our Blogs</div>
-            <div className='sm:w-[798px] mx-auto text-[16px] leading-8 font-light sm:mt-6'>Stay informed with our agricultural blog, featuring expert tips, industry insights, and practical advice to enhance your farming operations and drive success.</div>
+
+        <div className='sm:px-8 bg-[#FFFFFF] sm:mt-[104px] mt-[72px] sm:pb-[84px]'>
+            <div className='sm:text-[48px] text-[32px] font-medium sm:pt-[104px] pt-[72px]'>Our Blogs</div>
+            <div className='sm:w-[798px] w-[396px] mx-auto text-[16px] sm:leading-8 leading-7 font-light sm:mt-6 mt-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. it has been the industry's standard. Lorem Ipsum is simply dummy text of the printing and typesetting industry. it has been the industry's standard</div>
 
 
-            <div className="slider-container sm:mt-[56px]">
+
+            <div className="slider-container sm:mt-[56px] mt-[120px]">
                 <Slider {...settings}>
 
                     <div className='sm:w-[443px]'>

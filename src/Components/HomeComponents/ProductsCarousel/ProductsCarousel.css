@@ -25,3 +25,28 @@
   .slider-container .slick-list {
     margin: 0 -12px; /* Adjusts the margin of the slider to keep the overall layout centered */
   }
+
+
+  @media (max-width: 768px) {
+
+    slider-container .slick-slide {
+      padding: 0 0px; /* Adds 12px padding on left and right to create a 24px gap between slides */
+    }
+    
+    .slider-container .slick-list {
+      margin: 0 0px; /* Adjusts the margin of the slider to keep the overall layout centered */
+    }
+
+    .custom-prev-arrow {
+      top: -50px;
+      left: 275px; /* Move the prev arrow 50px to the left */
+      z-index: 1;
+    }
+    
+    .custom-next-arrow {
+      top: -50px;
+      right: 14px; /* Move the next arrow 50px to the right */
+      z-index: 1;
+    }
+
+  }
