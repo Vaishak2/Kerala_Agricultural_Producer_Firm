@@ -62,7 +62,7 @@ function ProductsCarousel() {
   return (
     <div className='sm:mx-8'>
       <div className='text-[48px] font-medium sm:mt-[104px]'>Our Products</div>
-      <div className='sm:w-[764px] mx-auto text-[16px] leading-8 font-light sm:mt-6'>Elit ultricies adipiscing ornare. Rutrum sapien aliquet mollis. Pretium condimentum. Cursus elit hac fames laoreet non nec facilisis quis dui.</div>
+      <div className='sm:w-[764px] mx-auto text-[16px] leading-8 font-light sm:mt-6'>Explore our diverse range of high-quality agricultural products, designed to meet the needs of modern farming. From premium seeds to essential agri supplies, we offer solutions that drive success in your agricultural ventures.</div>
 
 
       <div className="slider-container sm:mt-[56px]">
