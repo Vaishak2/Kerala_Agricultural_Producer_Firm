@@ -2,9 +2,9 @@ import React from "react";
 
 function AboutBanner() {
     return (
-        <div className="mx-[16px] sm:mx-[32px]">
+        <div className="sm:px-8 px-4">
             {/* Mobile banner image and About Us text hidden */}
-            <div className="bg-about-mobile sm:bg-about-banner bg-cover w-[395px] h-[352px] sm:w-[1376px] sm:h-[433px]   mt-[32px]">
+            <div className="bg-about-mobile sm:bg-about-banner bg-cover w-[395px] h-[352px] sm:w-full sm:h-[433px] mx-[] sm:mt-[40px] mt-[32px]">
                 <div className="sm:pt-[330px] sm:pl-[48px]">
                     {/* Hide About Us text on mobile */}
                     <h1 className="hidden sm:block sm:text-[48px] text-justify text-white sm:font-medium">

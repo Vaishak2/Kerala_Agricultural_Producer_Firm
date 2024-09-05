@@ -84,7 +84,7 @@ function ServicesPage() {
             </div>
             {servicesData.sections.map((section, sectionIndex) => (
                 <div className='' key={sectionIndex}>
-                    <div className='sm:mt-[104px] ml-4 '>
+                    <div className='sm:mt-[104px] mt-12 ml-4 '>
                         <h1 className='sm:text-[32px] text-[22px] leading-[57px] sm:font-semibold font-medium text-start sm:ml-[149px]'>{section.title}</h1>
                     </div>
 

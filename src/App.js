@@ -21,7 +21,7 @@ import ApplicationForm from './Pages/Application/ApplicationForm';
 
 function App() {
   return (
-    <div className="App font-signika sm:w-[1440px] bg-[#F8F8F8] mx-auto">
+    <div className="App font-signika  bg-[#F8F8F8] mx-auto">
       <Router>
 
         <Header />

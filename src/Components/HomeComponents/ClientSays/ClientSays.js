@@ -14,7 +14,7 @@ agricultural services. Their feedback highlights our commitment to quality
 and impact.
 </p>
       </div>
-      <div className='flex columns-3 gap-6 sm:ml-8'>
+      <div className='flex columns-3 gap-6 sm:mx-auto sm:justify-center'>
       <div className='hidden sm:block'>
         <div className=' sm:translate-x-[199px] sm:translate-y-[24px] sm:w-fit'><img src={blackExclamtion} alt="" /></div>
 

@@ -22,14 +22,14 @@ function Header() {
 
   return (
     <div>
-      <div className='sm:w-[1354px] flex sm:ml-[54px] sm:pt-4 sm:p-0 p-4 '>
+      <div className='justify-around flex  sm:pt-4 sm:p-0 p-4 '>
         <div className='logoSection flex ml-4'>
           <img className='sm:hidden block cursor-pointer' src={ToggleMenuIcon} alt="Toggle Menu" onClick={toggleMenu} />
-          <img className='sm:w-[58px] w-[64px] sm:h-[66px] h-[72px] ml-6' src={MainLogo} alt="Main Logo" />
+          <img className='sm:w-[58px] w-[64px] sm:h-[66px] h-[72px]' src={MainLogo} alt="Main Logo" />
         </div>
         <div className='NavSection sm:w-[698px] hidden columns-auto sm:flex gap-4 sm:text-[16px] sm:leading-5 sm:font-light my-auto sm:ml-[295px]'>
           {/* Navigation Items */}
-          {['Home', 'About Us', 'Services', 'Products', 'Blog', 'Career', 'Gallery'].map((link, index) => (
+          {['Home', 'About Us', 'Services', 'Products', 'Blogs', 'Career', 'Gallery'].map((link, index) => (
             <React.Fragment key={link}>
               <div
                 className={`nav-item ${activeLink === link ? 'font-semibold ' : ''}`}
@@ -61,7 +61,7 @@ function Header() {
           </div>
           <div className='flex flex-col mt-8 space-y-8'>
             {/* Toggle Menu Items */}
-            {['Home', 'About Us', 'Services', 'Products', 'Blog', 'Career', 'Gallery'].map((link) => (
+            {['Home', 'About Us', 'Services', 'Products', 'Blogs', 'Career', 'Gallery'].map((link) => (
               <div
                 key={link}
                 className={`nav-item ${activeLink === link ? 'font-semibold text-xl' : 'text-xl'}`}
