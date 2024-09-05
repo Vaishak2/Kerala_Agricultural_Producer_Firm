@@ -63,7 +63,7 @@ function BlogsCarousel() {
 
         <div className='sm:px-8 px-4 bg-[#FFFFFF] sm:mt-[104px] mt-[72px] sm:pb-[84px]'>
             <div className='sm:text-[48px] text-[32px] font-medium sm:pt-[104px] pt-[72px]'>Our Blogs</div>
-            <div className='sm:w-[798px] w-[396px] mx-auto text-[16px] sm:leading-8 leading-7 font-light sm:mt-6 mt-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. it has been the industry's standard. Lorem Ipsum is simply dummy text of the printing and typesetting industry. it has been the industry's standard</div>
+            <div className='sm:w-[798px] w-[396px] mx-auto text-[16px] sm:leading-8 leading-7 font-light sm:mt-6 mt-4'>Stay informed with our agricultural blog, featuring expert tips, industry insights, and practical advice to enhance your farming operations and drive success.</div>
 
 
 
