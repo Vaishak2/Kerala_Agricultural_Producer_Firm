@@ -5,3 +5,15 @@
   .slider-container .slick-list {
     margin: 0 px; /* Adjusts the margin of the slider to keep the overall layout centered */
   }
+
+  .custom-prev-arrow {
+    top: -36px;
+    left: 1322px; /* Move the prev arrow 50px to the left */
+    z-index: 1;
+  }
+  
+  .custom-next-arrow {
+    top: -36px;
+    right: 16px; /* Move the next arrow 50px to the right */
+    z-index: 1;
+  }
