@@ -2,9 +2,13 @@ import React from 'react'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import LeftScrollArrow from '../../../Assets/Icon/Group 14.png'
-import RightScrollArrow from '../../../Assets/Icon/Group 13.png'
+import LeftScrollArrow from '../../../Assets/Icon/left.png'
+import RightScrollArrow from '../../../Assets/Icon/right.png'
 import ButtonArrow from "../../../Assets/Icon/arrow_outward.svg";
+import productImg1 from "../../../Assets/images/productImages/product1.png"
+import productImg2 from "../../../Assets/images/productImages/product2.png"
+import productImg3 from "../../../Assets/images/productImages/product3.png"
+import productImg4 from "../../../Assets/images/productImages/product4.png"
 import './ProductsCarousel.css'
 
 
@@ -63,60 +67,52 @@ function ProductsCarousel() {
 
       <div className="slider-container sm:mt-[56px]">
         <Slider {...settings}>
-          <div className='sm:w-[326px] sm:h-[435px] bg-[#FFFFFF] rounded-2xl'>
-            <div className='sm:w-[326px] sm:h-[301px] bg-[#D9D9D9] rounded-t-2xl'></div>
+          <div className='sm:w-[326px] sm:h-[374px] bg-[#FFFFFF] rounded-2xl'>
+            <img src={productImg1} className='sm:w-[326px] sm:h-[301px] rounded-t-2xl'></img>
             <div className='text-left sm:p-6'>
-              <div className='text-[18px] font-medium'>Elit ultricies adipiscing </div>
-              <div className='text-[16px] font-light sm:mt-3'>Elit ultricies adipiscing ornare. Rutrum sapien aliquet</div>
+              <div className='text-[18px] font-medium'>Fertilizer</div>
             </div>
           </div>
-          <div className='sm:w-[326px] sm:h-[435px] bg-[#FFFFFF] rounded-2xl'>
-            <div className='sm:w-[326px] sm:h-[301px] bg-[#D9D9D9] rounded-t-2xl'></div>
+          <div className='sm:w-[326px] sm:h-[374px] bg-[#FFFFFF] rounded-2xl'>
+          <img src={productImg2} className='sm:w-[326px] sm:h-[301px] rounded-t-2xl'></img>
             <div className='text-left sm:p-6'>
-              <div className='text-[18px] font-medium'>Elit ultricies adipiscing </div>
-              <div className='text-[16px] font-light sm:mt-3'>Elit ultricies adipiscing ornare. Rutrum sapien aliquet</div>
+              <div className='text-[18px] font-medium'>Pesticides</div>
             </div>
           </div>
-          <div className='sm:w-[326px] sm:h-[435px] bg-[#FFFFFF] rounded-2xl'>
-            <div className='sm:w-[326px] sm:h-[301px] bg-[#D9D9D9] rounded-t-2xl'></div>
+          <div className='sm:w-[326px] sm:h-[374px] bg-[#FFFFFF] rounded-2xl'>
+          <img src={productImg3} className='sm:w-[326px] sm:h-[301px] rounded-t-2xl'></img>
             <div className='text-left sm:p-6'>
-              <div className='text-[18px] font-medium'>Elit ultricies adipiscing </div>
-              <div className='text-[16px] font-light sm:mt-3'>Elit ultricies adipiscing ornare. Rutrum sapien aliquet</div>
+              <div className='text-[18px] font-medium'>Seeds</div>
             </div>
           </div>
-          <div className='sm:w-[326px] sm:h-[435px] bg-[#FFFFFF] rounded-2xl'>
-            <div className='sm:w-[326px] sm:h-[301px] bg-[#D9D9D9] rounded-t-2xl'></div>
+          <div className='sm:w-[326px] sm:h-[374px] bg-[#FFFFFF] rounded-2xl'>
+          <img src={productImg4} className='sm:w-[326px] sm:h-[301px] rounded-t-2xl'></img>
             <div className='text-left sm:p-6'>
-              <div className='text-[18px] font-medium'>Elit ultricies adipiscing </div>
-              <div className='text-[16px] font-light sm:mt-3'>Elit ultricies adipiscing ornare. Rutrum sapien aliquet</div>
+              <div className='text-[18px] font-medium'>Equipment</div>
             </div>
           </div>
-          <div className='sm:w-[326px] sm:h-[435px] bg-[#FFFFFF] rounded-2xl'>
+          <div className='sm:w-[326px] sm:h-[374px] bg-[#FFFFFF] rounded-2xl'>
             <div className='sm:w-[326px] sm:h-[301px] bg-[#D9D9D9] rounded-t-2xl'></div>
             <div className='text-left sm:p-6'>
               <div className='text-[18px] font-medium'>Elit ultricies adipiscing </div>
-              <div className='text-[16px] font-light sm:mt-3'>Elit ultricies adipiscing ornare. Rutrum sapien aliquet</div>
             </div>
           </div>
-          <div className='sm:w-[326px] sm:h-[435px] bg-[#FFFFFF] rounded-2xl'>
+          <div className='sm:w-[326px] sm:h-[374px] bg-[#FFFFFF] rounded-2xl'>
             <div className='sm:w-[326px] sm:h-[301px] bg-[#D9D9D9] rounded-t-2xl'></div>
             <div className='text-left sm:p-6'>
               <div className='text-[18px] font-medium'>Elit ultricies adipiscing </div>
-              <div className='text-[16px] font-light sm:mt-3'>Elit ultricies adipiscing ornare. Rutrum sapien aliquet</div>
             </div>
           </div>
-          <div className='sm:w-[326px] sm:h-[435px] bg-[#FFFFFF] rounded-2xl'>
+          <div className='sm:w-[326px] sm:h-[374px] bg-[#FFFFFF] rounded-2xl'>
             <div className='sm:w-[326px] sm:h-[301px] bg-[#D9D9D9] rounded-t-2xl'></div>
             <div className='text-left sm:p-6'>
               <div className='text-[18px] font-medium'>Elit ultricies adipiscing </div>
-              <div className='text-[16px] font-light sm:mt-3'>Elit ultricies adipiscing ornare. Rutrum sapien aliquet</div>
             </div>
           </div>
-          <div className='sm:w-[326px] sm:h-[435px] bg-[#FFFFFF] rounded-2xl'>
+          <div className='sm:w-[326px] sm:h-[374px] bg-[#FFFFFF] rounded-2xl'>
             <div className='sm:w-[326px] sm:h-[301px] bg-[#D9D9D9] rounded-t-2xl'></div>
             <div className='text-left sm:p-6'>
               <div className='text-[18px] font-medium'>Elit ultricies adipiscing </div>
-              <div className='text-[16px] font-light sm:mt-3'>Elit ultricies adipiscing ornare. Rutrum sapien aliquet</div>
             </div>
           </div>
 

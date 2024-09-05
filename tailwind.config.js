@@ -8,7 +8,8 @@ module.exports = {
       backgroundImage: theme => ({
         'banner-image': "url('/src/Assets/Banner-Image/Banner.png')",
         'about-banner':"url('/src/Assets/Banner-Image/AboutusBnr.png')",
-        'Responsive-banner':"url('/src/Assets/Banner-Image/bannerForResponsive.png')"
+        'about-mobile':"url('/src/Assets/Banner-Image/aboutBnr.png')"
+
       }),
       fontFamily: {
         signika: ['Signika', 'sans-serif'],
