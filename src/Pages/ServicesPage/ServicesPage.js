@@ -28,6 +28,8 @@ function ServicesPage() {
 
     // Close dropdown when clicking outside
     useEffect(() => {
+        window.scrollTo(0,0)
+
         const handleClickOutside = (event) => {
             dropdownRefs.current.forEach((ref, index) => {
                 if (ref && !ref.contains(event.target)) {
@@ -59,7 +61,11 @@ function ServicesPage() {
             document.removeEventListener('mousedown', handleClickOutside);
             document.removeEventListener('mousedown', handleClickOutside2);
         };
+
+
     }, []);
+
+    
 
     return (
         <div>
