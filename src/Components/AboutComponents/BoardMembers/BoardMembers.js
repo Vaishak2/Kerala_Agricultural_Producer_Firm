@@ -44,7 +44,7 @@ function BoardMembers() {
                     alt="chairman"
                     className='sm:w-[443px] w-[396px] h-[330px] sm:h-[443px] rounded-[8px]' />
                 <div className='sm:ml-[24px]  text-justify'>
-                    <div className='sm:mt-[55px] mt-[16px] font-bold text-[18px] '>Johnson KP</div>
+                    <div className='sm:mt-[55px] mt-[16px] font-semibold text-[18px] '>Johnson KP</div>
                     <div className='sm:mt-[8px] mt-[8px] font-light text-[16px]'>Chairman</div>
                     <div className='sm:mt-[40px] mt-[24px] font-light text-[16px] leading-[28px] text-[#2A2E35] w-[396px] sm:w-[792px]'>
                         Johnson KP, Chairman of Kerala Grameen Agro Producer Company Ltd (KGAPCO), is a trailblazing leader with a storied past, whose illustrious career has been marked by valor, precision, and a relentless pursuit of excellence. A decorated Army Veteran, he brings the same discipline, strategic prowess, and unwavering dedication to KGAPCO, inspiring his team to achieve the extraordinary.
@@ -66,7 +66,7 @@ function BoardMembers() {
               src={member.image}
               alt={member.name}
             />
-            <h3 className="font-bold sm:text-[18px] text-justify mt-[16px] sm:mt-[16px]">{member.name}</h3>
+            <h3 className="font-semibold sm:text-[18px] text-justify mt-[16px] sm:mt-[16px]">{member.name}</h3>
             <p className="font-light sm:text-[16px] text-justify mt-[8px]">{member.title}</p>
             
           </div>
