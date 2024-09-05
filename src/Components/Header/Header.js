@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import MainLogo from "../../Assets/mainLogo.png";
@@ -36,7 +35,7 @@ function Header() {
                 className={`nav-item ${activeLink === link ? 'font-semibold ' : ''}`}
                 onClick={() => handleClick(link)}
               >
-                <Link to={`/${link.replace(' ', '').toLowerCase()}`}>{link}</Link>
+                <Link to={link === 'Home' ? '/' : `/${link.replace(' ', '').toLowerCase()}`}>{link}</Link>
               </div>
               {index < 6 && (
                 <img className='sm:w-[8px] sm:h-[8px] my-auto' src={Dot} alt="" />
@@ -65,7 +64,7 @@ function Header() {
                 className={`nav-item ${activeLink === link ? 'font-semibold text-xl' : 'text-xl'}`}
                 onClick={() => handleClick(link)}
               >
-                <Link to={`/${link.replace(' ', '').toLowerCase()}`}>{link}</Link>
+                <Link to={link === 'Home' ? '/' : `/${link.replace(' ', '').toLowerCase()}`}>{link}</Link>
               </div>
             ))}
           </div>

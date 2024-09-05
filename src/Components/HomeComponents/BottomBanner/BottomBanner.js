@@ -1,24 +1,24 @@
 import React from 'react'
 import bottomBanner from '../../../Assets/bottomBanner.png'
-import bottomResp from '../../../Assets/Banner-Image/bottomResp.png'
+
+import bottomBanner2 from '../../../Assets/BottomBannerImg.png'
 
 function BottomBanner() {
   return (
-    <div className='sm:mx-[32px] mt-[72px] sm:mt-[104px] mx-[16px]'>
-      {/* Mobile view */}
-      <img 
-        src={bottomResp} 
-        alt="" 
-        className='block  sm:hidden ' 
-      />
-      
-      {/* Desktop view */}
-      <img 
-        src={bottomBanner} 
-        alt="" 
-        className='hidden sm:block ' 
-      />
+    <div>
+    <div className='hidden sm:block sm:mx-[32px]'>
+        <img src={bottomBanner}
+         alt=""
+         className='sm:mt-[104px]' />
     </div>
+    <div className='sm:hidden block sm:mx-[32px] '>
+        <img  src={bottomBanner2}
+         alt=""
+         className='sm:mt-[104px] w-[396px] h-[164px] mx-auto mt-[72px]' />
+    </div>
+    </div>
+
+
   )
 }
 

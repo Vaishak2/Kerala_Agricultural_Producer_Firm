@@ -44,7 +44,7 @@ effectively
             <Link to={"services"}>
             <div
               key={index}
-              className='flex sm:w-[793px] w-[396px] bg-white cursor-pointer rounded-t-[32px] pr-[14px] rounded-br-[32px] sm:p-3 py-5 justify-between sm:mt-6'
+              className='flex sm:w-[793px] w-[396px] bg-white cursor-pointer rounded-t-[32px] pr-[14px] rounded-br-[32px] sm:p-3 py-5 justify-between sm:mt-6 mt-4'
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
@@ -60,7 +60,7 @@ effectively
           </div>
       </div>
       <div className='flex'>
-      <div className=' hidden sm:block sm:mt-[205px] sm:ml-[57px]'>
+      <div className=' hidden sm:block sm:mt-[146px] sm:ml-[57px]'>
             <img className='sm:w-[490px] sm:h-[322px]' src={Service2} alt="" />
           </div>
         <div className='sm:mt-16 mt-12 sm:ml-8 sm:mb-20 ml-4'>
@@ -72,7 +72,7 @@ effectively
             <Link to={"services"}>
             <div
               key={index}
-              className='flex sm:w-[793px] w-[396px] bg-white rounded-t-[32px] pr-[14px] rounded-br-[32px] sm:p-3 py-5 justify-between sm:mt-6 leading-6'
+              className='flex sm:w-[793px] w-[396px] bg-white rounded-t-[32px] pr-[14px] rounded-br-[32px] sm:p-3 py-5 justify-between sm:mt-6 mt-4 leading-6'
               onMouseEnter={() => setHoveredIndex2(index)}
               onMouseLeave={() => setHoveredIndex2(null)}
             >
