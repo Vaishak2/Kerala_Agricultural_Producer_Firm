@@ -11,17 +11,17 @@ function Footer() {
   const linkSections = [
     {
       title: '',
-      links: ['About', 'Services', 'Products', 'Blogs', 'Careers'],
+      links: [ 'About','Services', 'Products', 'Blogs' ],
     },
     {
       title: '',
-      links: ['About', 'Our Story', 'Benefits', 'Team', 'Careers'],
+      links: ['Careers', 'Our Story', 'Board Members',  'Gallery'],
     }
   ];
 
   const socialIcons = [
     { icon: fbIcon, alt: 'Facebook' },
-    { icon: twitterIcon, alt: 'Twitter' },
+    
     { icon: instaIcon, alt: 'Instagram' },
   ];
 
@@ -61,7 +61,7 @@ function Footer() {
           {linkSections.map((section, idx) => (
             <div key={idx} className={`space-y-4 ${idx === 0 ? 'sm:ml-[260px] ml-[16px]' : idx === 1 ? 'sm:ml-[172px] ml-[104px]' : ''}`}>
               {section.links.map((link, i) => (
-                <a key={i} href="" className={`block font-light text-[16px] text-[#2A2E35] hover:underline hover:font-normal ${i > 0 ? 'sm:mt-[20px] mt-[20px]' : ''}`}>
+                <a key={i} href="#" className={`block font-light text-[16px] text-[#2A2E35] hover:underline hover:font-normal ${i > 0 ? 'sm:mt-[20px] mt-[20px]' : ''}`}>
                   {link}
                 </a>
               ))}
