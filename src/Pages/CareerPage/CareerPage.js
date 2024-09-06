@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import searchIcon from '../../Assets/Icon/search.svg';
 import ArrowLeft from '../../Assets/Icon/arrow-left.svg';
 import ArrowRight from '../../Assets/Icon/arrow-right.svg';
+import ButtonArrow from "../../Assets/Icon/arrow_outward.svg";
+
 
 const mockJobs = [
     {
@@ -101,12 +103,21 @@ const CareerPage = () => {
                         </div>
                         <div className="flex flex-col items-start md:items-end">
                             {/* On mobile, View Job Description should appear below the Apply button */}
-                            <button
+                            {/* <button
                                 onClick={() => handleApply(job.id)}
                                 className="bg-[#5D8424] text-white px-12 md:px-6 py-4 rounded-full mt-4 md:mt-0"
                             >
                                 Apply ↗
-                            </button>
+                            </button> */}
+                            <div>
+
+                                <button
+                                    onClick={() => handleApply(job.id)}
+                                    className='flex sm:ml-[50px] ml-auto bg-[#5D8424] sm:px-12 px-12 md:px-6 sm:py-4 py-3 mt-3 sm:mt-0 rounded-[48px] h-[48px] sm:h-[56px] '>
+                                    <span className='text-white text-[16px] leading-5'>Apply</span>
+                                    <img className='sm:w-6 sm:h-6' src={ButtonArrow} alt="Button Arrow" />
+                                </button>
+                            </div>
                             <div
                                 onClick={() => toggleJobDescription(job.id)}
                                 className="mt-2 cursor-pointer text-[#5D8424]"
