@@ -73,8 +73,8 @@ function ServicesPage() {
     };
 
     return (
-        <div>
-            <div className='sm:w-[798px] w-[396px] sm:mx-auto ml-4 sm:mt-10'>
+        <div className='sm:px-16 px-4'>
+            <div className='sm:w-[798px] w-full sm:mx-auto sm:mt-10'>
                 <div className='sm:text-[48px] text-[32px] sm:font-medium sm:leading-[99px] leading-[99px]'>Our services</div>
                 <p className='sm:text-[16px] text-[16px] sm:font-light sm:leading-8 leading-[28px] text-[#2A2E35]'>
                     Transform your agricultural practices with KGAPCO Our expert services in crop
@@ -83,16 +83,16 @@ function ServicesPage() {
                 </p>
             </div>
             {servicesData.sections.map((section, sectionIndex) => (
-                <div className='' key={sectionIndex}>
+                <div className='sm:px-20' key={sectionIndex}>
                     <div className='sm:mt-[104px] mt-12 ml-4 '>
-                        <h1 className='sm:text-[32px] text-[22px] leading-[57px] sm:font-semibold font-medium text-start sm:ml-[149px]'>{section.title}</h1>
+                        <h1 className='sm:text-[32px] text-[22px] leading-[57px] sm:font-semibold font-medium text-start'>{section.title}</h1>
                     </div>
 
                     {section.items.map((item, itemIndex) => (
-                        <div className='sm:mt-8 mt-2' key={itemIndex}>
+                        <div className='sm:mt-8 mt-2 ' key={itemIndex}>
                             <div
                                 onClick={() => toggleDropdown(sectionIndex, itemIndex)}
-                                className='sm:w-[1142px] w-[396px] bg-[#ffff] sm:py-[34px] py-6 mx-auto text-start sm:pl-[32px] pl-6 sm:pr-16 pr-[28px] justify-between flex'
+                                className='sm:w-full w-full bg-[#FFFFFF] sm:py-[34px] py-6 mx-auto text-start  pl-6 sm:pr-16 pr-[28px] justify-between flex'
                             >
                                 <h1 className='sm:text-[24px] text-[16px] w-[270px] sm:w-[664px] leading-6 sm:leading-7 font-medium my-auto'>
                                     {getTruncatedTitle(item.title, sectionIndex, itemIndex)}
@@ -104,7 +104,7 @@ function ServicesPage() {
                                 />
                             </div>
                             {openDropdown[`${sectionIndex}-${itemIndex}`] && (
-                                <div className='sm:w-[1142px] w-[396px] bg-[#FFFFFF] py-[20px] mx-auto text-justify pl-[32px] text-[#2A2E35] pr-16'>
+                                <div className='sm:w-full w-full bg-[#FFFFFF] py-[20px] mx-auto text-justify pl-[32px] text-[#2A2E35] pr-16'>
                                     <p className='text-[16px] sm:leading-7 font-light'>
                                         {item.content}
                                     </p>
