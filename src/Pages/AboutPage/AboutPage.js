@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import AboutBanner from '../../Components/AboutComponents/AboutBanner/AboutBanner'
 import OurVisionAbout from '../../Components/AboutComponents/OurVision/OurVisionAbout'
 import BoardMembers from '../../Components/AboutComponents/BoardMembers/BoardMembers'
 
 function AboutPage() {
-  return (
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
+  return ( 
+    
+  
 
    <div>
       <AboutBanner/>
