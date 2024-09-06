@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import MainLogo from "../../Assets/mainLogo.png";
 import arrowButton from '../../Assets/Icon/arrowButton.svg';
 import fbIcon from '../../Assets/Icon/fbIcon.svg';
 import twitterIcon from '../../Assets/Icon/twitterIcon.svg';
 import instaIcon from '../../Assets/Icon/instaIcon.svg';
+import Swal from 'sweetalert2';
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -25,6 +26,46 @@ function Footer() {
     { icon: instaIcon, alt: 'Instagram' },
   ];
 
+  const [emailValue, setEmailValue] = useState('');
+  const [emailError, setEmailError] = useState('');
+
+  const showSuccessToast = () => {
+    Swal.fire({
+      icon: 'success',
+      title: 'Thank you for subscribing.',
+      showConfirmButton: false,
+      timer: 2300
+    });
+  };
+
+  const subscribe = (event) => {
+    event.preventDefault();
+
+    // Validate email format
+    const isValidEmail = validateEmail(emailValue);
+
+    if (isValidEmail) {
+      // Handle subscription logic
+      console.log('Subscribed with email:', emailValue);
+
+      // Clear email input
+      setEmailValue('');
+
+      // Show success message
+      showSuccessToast();
+    } else {
+      // Show error message
+      setEmailError('Please enter a valid email address.');
+    }
+  };
+
+  const validateEmail = (email) => {
+    // Email validation regex pattern
+    const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return pattern.test(email);
+  };
+
+
   return (
     <div className='sm:w-full w-[428px] h-[650px] mt-[72px] sm:h-[555px] sm:mt-[104px] pt-[2px] sm:pt-6 bg-white'>
       <div className='sm:mt-[34px] mt-[32px] sm:mx-[185px] mx-[16px] flex justify-between'>
@@ -43,18 +84,26 @@ function Footer() {
           </h2>
           <form className="sm:mt-[28px] flex sm:w-[289px] w-[396px] h-[51px] mt-[32px] sm:h-[51px]" onSubmit={(e) => e.preventDefault()}>
             <input
-              type="email"
               name="email"
               placeholder="Email address"
+              id='form_input'
+                    type="email"
+                    value={emailValue}
+                    onChange={(e) => {
+                      setEmailValue(e.target.value);
+                      setEmailError('');
+                    }}
               className="flex-grow px-3 py-2 rounded-tl-[8px] outline-none border-b"
             />
-            <div
-              type="submit"
+            <button
+              type="submit" onClick={subscribe}
               className="flex items-center justify-center sm:w-[50px] w-[50px] cursor-pointer h-[50px] sm:h-[50px] rounded-tr-[8px] bg-[#5D8424]"
             >
               <img src={arrowButton} alt="Submit" />
-            </div>
+            </button>
           </form>
+          {emailError && <p className="text-red-500 text-xs mt-1 ml-1 text-left">{emailError}</p>}
+
         </div>
 
         <div className="flex mt-[48px] mx-auto m:w-fit text-justify ">
