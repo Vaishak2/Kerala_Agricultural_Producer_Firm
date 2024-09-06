@@ -26,7 +26,7 @@ function OurServices() {
  
   return (
     <div className='sm:mt-[108px] mt-[72px]'>
-      <div className='sm:w-[798px] w-[396px] sm:mx-auto ml-4'>
+      <div className='sm:w-[798px] w-full sm:mx-auto'>
         <div className='sm:text-[48px] text-[32px] sm:font-medium sm:leading-[99px] leading-[99px]'>Our services</div>
         <p className='sm:text-[16px] text-[16px] sm:font-light sm:leading-8 leading-[28px] text-[#2A2E35]'>
         Transform your agricultural practices with KGAPCO Our expert services in crop
@@ -34,17 +34,17 @@ procurement and seed distribution are designed to support your farming needs
 effectively
         </p>
       </div>
-      <div className='flex sm:mx-auto justify-center sm:w-full'>
-        <div className='sm:mt-16 mt-12 sm:ml-8 ml-4'>
+      <div className='flex sm:mx-auto justify-center sm:w-full px-4'>
+        <div className='sm:mt-16 mt-12 sm:ml-8 '>
           <h1 className='text-justify font-medium sm:text-[32px] text-[22px] sm:leading-[57px] leading-[22px]'>Agri support Services</h1>
           <div className='sm:mt-[205px] mt-6 sm:ml-[57px] sm:hidden block'>
-            <img className='sm:w-[490px] w-[396px] h-[322px] sm:h-[322px]' src={Service1} alt="" />
+            <img className='sm:w-[490px] w-full h-[322px] sm:h-[322px]' src={Service1} alt="" />
           </div>
           {services.map((service, index) => (
             <Link to={"services"}>
             <div
               key={index}
-              className='flex sm:w-[793px] w-[396px] bg-white cursor-pointer rounded-t-[32px] pr-[14px] rounded-br-[32px] sm:p-3 py-5 justify-between sm:mt-6 mt-4'
+              className='flex sm:w-[793px] w-full bg-white cursor-pointer rounded-t-[32px] pr-[14px] rounded-br-[32px] sm:p-3 py-5 justify-between sm:mt-6 mt-4'
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >

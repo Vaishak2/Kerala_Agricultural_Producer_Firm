@@ -22,9 +22,8 @@ function Header() {
 
   return (
     <div>
-      <div className='justify-center flex  sm:pt-4 sm:p-0 p-4 '>
-        <div className='logoSection flex 
-        '>
+      <div className='justify-between sm:justify-center flex  sm:pt-4 sm:p-0 p-4 '>
+        <div className='logoSection flex'>
           <img className='sm:hidden block cursor-pointer w-6 h-6 mt-10 ' src={ToggleMenuIcon} alt="Toggle Menu" onClick={toggleMenu} />
           <img className='sm:w-[58px] w-[64px] sm:h-[66px] h-[72px] sm:ml-0 ml-6' src={MainLogo} alt="Main Logo" />
         </div>
@@ -47,7 +46,7 @@ function Header() {
 
           <Link to='/contact'>
 
-        <button className='GetInTouchBtn flex sm:ml-[50px] ml-[106px] bg-[#5D8424 sm:px-12 px-6 sm:py-4 py-3 mt-3 sm:mt-0 rounded-[48px] h-[48px] sm:h-[56px] bg-[#5D8424]'>
+        <button className='GetInTouchBtn flex sm:ml-[50px] ml-auto bg-[#5D8424 sm:px-12 px-6 sm:py-4 py-3 mt-3 sm:mt-0 rounded-[48px] h-[48px] sm:h-[56px] bg-[#5D8424]'>
           <span className='text-white text-[16px] leading-5'>Get In Touch</span>
           <img className='sm:w-6 sm:h-6' src={ButtonArrow} alt="Button Arrow" />
         </button>
