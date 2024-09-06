@@ -1,10 +1,14 @@
 .slider-container-Client .slick-slide {
     padding: 0 12px; 
   }
+
+  /* .slider-container-Client {
+    width: 100%;
+  } */
   
   .slider-container-Client .slick-list {
     margin: 0 32px; /* Adjusts the margin of the slider to keep the overall layout centered */
-    width: 100%;
+    
   }
 
 
