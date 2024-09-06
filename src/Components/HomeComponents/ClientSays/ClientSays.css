@@ -1,19 +1,20 @@
-.slider-container .slick-slide {
+.slider-container-Client .slick-slide {
     padding: 0 12px; 
   }
   
-  .slider-container .slick-list {
+  .slider-container-Client .slick-list {
     margin: 0 32px; /* Adjusts the margin of the slider to keep the overall layout centered */
+    width: 100%;
   }
 
 
   @media (max-width: 768px) {
 
-    slider-container .slick-slide {
+    .slider-container-Client .slick-slide {
       padding: 0 0px; /* Adds 12px padding on left and right to create a 24px gap between slides */
     }
     
-    .slider-container .slick-list {
+    .slider-container-Client .slick-list {
       margin: 0 0px; /* Adjusts the margin of the slider to keep the overall layout centered */
     }
   }
