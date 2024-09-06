@@ -117,7 +117,7 @@ function Footer() {
       <div className="mx-auto sm:w-[1068px] w-full mt-[32px] sm:h-[1px] sm:mt-[40px] border-b"></div>
 
       <div className='sm:mt-[40px] mt-[48px] sm:flex justify-between sm:mx-[185px]'>
-        <div>
+        <div >
           <h2 className='text-[24px] font-normal text-justify leading-[30px]'>
             Subscribe to our <br /> newsletter
           </h2>
@@ -146,9 +146,9 @@ function Footer() {
 
         </div>
 
-        <div className="flex mt-[48px]   mx-auto m:w-fit text-justify ">
+        <div className="flex   mx-auto m:w-fit text-justify ">
           {linkSections.map((section, idx) => (
-            <div onClick={scrollToTop} key={idx} className={`space-y-4 ${idx === 0 ? 'sm:ml-[260px] ml-[16px]' : idx === 1 ? 'sm:ml-[172px] ml-[104px]' : ''}`}>
+            <div onClick={scrollToTop} key={idx} className= {` ${idx === 0 ?  'sm:ml-[260px]  ml-[16px]' : idx === 1 ? 'sm:ml-[172px] ml-[104px]' : ''}`}>
               {section.links.map((link, i) => (
                
                 <Link key={i} to={link.path} className={`block font-light text-[16px] text-[#2A2E35] hover:underline  ${i > 0 ? 'sm:mt-[20px] mt-[20px]' : ''}`}>
