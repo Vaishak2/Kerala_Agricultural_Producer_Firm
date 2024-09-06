@@ -72,6 +72,10 @@ function ServicesPage() {
         return title; // Show full title if it's within the limit or dropdown is open
     };
 
+    useEffect(()=> {
+        window.scrollTo(0,0)
+    },[])
+
     return (
         <div className='sm:px-16 px-4 sm:mt-[29px] '>
             <div className='sm:w-[798px] w-full sm:mx-auto '>
