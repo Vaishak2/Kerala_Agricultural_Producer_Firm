@@ -143,14 +143,15 @@ function Footer() {
           </form>
           {emailError && <p className="text-red-500 text-xs mt-1 ml-1 text-left">{emailError}</p>}
 
+
         </div>
 
-        <div className="flex mt-[48px] mx-auto m:w-fit text-justify ">
+        <div className="flex mt-[48px]   mx-auto m:w-fit text-justify ">
           {linkSections.map((section, idx) => (
             <div onClick={scrollToTop} key={idx} className={`space-y-4 ${idx === 0 ? 'sm:ml-[260px] ml-[16px]' : idx === 1 ? 'sm:ml-[172px] ml-[104px]' : ''}`}>
               {section.links.map((link, i) => (
                
-                <Link key={i} to={link.path} className={`block font-light text-[16px] text-[#2A2E35] hover:underline hover:font-normal ${i > 0 ? 'sm:mt-[20px] mt-[20px]' : ''}`}>
+                <Link key={i} to={link.path} className={`block font-light text-[16px] text-[#2A2E35] hover:underline  ${i > 0 ? 'sm:mt-[20px] mt-[20px]' : ''}`}>
                   {link.name}
                 </Link>
 
