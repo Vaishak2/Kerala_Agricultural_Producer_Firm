@@ -118,7 +118,7 @@ const ContactForm = () => {
                     <div>
                         <button
                             type="submit"
-                            className="w-full bg-[#5D8424] h-[56px] text-white flex justify-center px-4 py-3 rounded-md text-lg font-medium transition duration-300"
+                            className="w-full bg-[#5D8424] h-[56px] text-white flex justify-center px-4 py-3  text-lg font-medium transition duration-300"
                         >
                             Submit
                         </button>
