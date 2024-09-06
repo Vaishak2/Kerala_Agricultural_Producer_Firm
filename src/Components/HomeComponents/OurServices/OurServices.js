@@ -34,7 +34,7 @@ procurement and seed distribution are designed to support your farming needs
 effectively.
         </p>
       </div>
-      <div className='flex sm:mx-auto  sm:w-full sm:px-8 px-4'>
+      <div className='flex sm:mx-auto sm:justify-around  sm:w-full sm:px-8 px-4'>
         <div className='sm:mt-16 mt-12  '>
           <h1 className='text-justify font-medium sm:text-[32px] text-[22px] sm:leading-[57px] leading-[22px]'>Agri support Services</h1>
           <div className='sm:mt-[205px] mt-6 sm:ml-[57px] sm:hidden block'>
@@ -59,7 +59,7 @@ effectively.
             <img className='sm:w-[490px] sm:h-[322px]' src={Service1} alt="" />
           </div>
       </div>
-      <div className='flex sm:px-8 px-4'>
+      <div className='flex sm:px-8 px-4 sm:justify-around'>
       <div className=' hidden sm:block sm:mt-[146px] '>
             <img className='sm:w-[490px] sm:h-[322px]' src={Service2} alt="" />
           </div>

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 function AboutUsHome() {
   return (
 
-    <div className="sm:w-[1347px] sm:mt-[104px] mt-[72px] sm:ml-4 mx-2 sm:flex sm:px-8 ">
+    <div className="sm:w-full justify-around sm:mt-[104px] mt-[72px] sm:ml-4 mx-2 sm:flex sm:px-8 ">
       <div className="">
         <img
           src={greenImage}
