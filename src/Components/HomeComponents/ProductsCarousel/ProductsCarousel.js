@@ -10,6 +10,7 @@ import productImg2 from "../../../Assets/images/productImages/product2.png"
 import productImg3 from "../../../Assets/images/productImages/product3.png"
 import productImg4 from "../../../Assets/images/productImages/product4.png"
 import './ProductsCarousel.css'
+import { Link } from 'react-router-dom';
 
 
 const NextArrow = (props) => {
@@ -63,7 +64,7 @@ function ProductsCarousel() {
 
     <div className='sm:mx-8'>
       <div className='sm:text-[48px] text-[32px] font-medium sm:mt-[40px] mt-[48px]'>Our Products</div>
-      <div className='sm:w-[764px] mx-auto text-[16px] sm:leading-8 leading-7 font-light sm:mt-6 mt-4'>Explore our diverse range of high-quality agricultural products, designed to meet the needs of modern farming. From premium seeds to essential agri supplies, we offer solutions that drive success in your agricultural ventures.</div>
+      <div className='sm:w-[764px] sm:mx-auto mx-4 text-[16px] sm:leading-8 leading-7 font-light sm:mt-6 mt-4'>Explore our diverse range of high-quality agricultural products, designed to meet the needs of modern farming. From premium seeds to essential agri supplies, we offer solutions that drive success in your agricultural ventures.</div>
 
 
       <div className="slider-container sm:mt-[56px] mt-[120px]">
@@ -100,11 +101,12 @@ function ProductsCarousel() {
         </Slider>
       </div>
 
-      <button className='sm:w-[200px] w-[165px] sm:h-[56px] h-[48px] mx-auto sm:mt-[56px] mt-[32px] bg-[#5D8424]'>
-        <span className='text-white text-[16px] font-normal ml-auto'>More Products</span>
-        <img className='sm:w-6 sm:h-6 mr-auto' src={ButtonArrow} alt="Button Arrow" />
-      </button>
-
+      <Link to={'products'}>
+        <button className='sm:w-[200px] w-[165px] sm:h-[56px] h-[48px] mx-auto sm:mt-[56px] mt-[32px] bg-[#5D8424]'>
+          <span className='text-white text-[16px] font-normal ml-auto'>More Products</span>
+          <img className='sm:w-6 sm:h-6 mr-auto' src={ButtonArrow} alt="Button Arrow" />
+        </button>
+      </Link>
     </div>
   )
 }

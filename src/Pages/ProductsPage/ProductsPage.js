@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import productImg1 from '../../Assets/images/productImages/product1.png'
 import productImg2 from "../../Assets/images/productImages/product2.png"
 import productImg3 from "../../Assets/images/productImages/product3.png"
 import productImg4 from "../../Assets/images/productImages/product4.png"
 
 function ProductsPage() {
+
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    },[])
+
     return (
         <div className='sm:mx-8 mx-4'>
             <div className='sm:text-[48px] text-[32px] font-medium sm:mt-[40px] mt-[48px]'>Our Products</div>
