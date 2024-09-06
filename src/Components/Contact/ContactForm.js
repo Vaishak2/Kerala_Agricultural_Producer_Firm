@@ -56,12 +56,12 @@ const ContactForm = () => {
                 <p className="text-base md:text-lg text-gray-600 mb-8">
                     Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project and provide help.
                 </p>
-                <div className="flex items-center text-gray-700 mb-6">
+                <div className="md:flex items-center text-gray-700 mb-6">
                     <div className="flex items-center mr-8">
                         <span className="mr-2 text-2xl"><img src={Callicon} alt="Call Icon" /></span>
-                        <span className="text-base md:text-lg">+91 5678976543</span>
+                        <span className="whitespace-nowrap text-base md:text-lg">+91 5678976543</span>
                     </div>
-                    <div className="flex items-center">
+                    <div className="flex items-center my-2">
                         <span className="mr-2 text-2xl"><img src={Msgicon} alt="Message Icon" /></span>
                         <span className="text-base md:text-lg">kgapco@gmail.com</span>
                     </div>
