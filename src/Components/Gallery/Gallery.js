@@ -174,7 +174,7 @@ const Gallery = () => {
 
     return (
         <div className="container mx-auto p-4">
-            <div className='my-12 text-6xl font-normal text-center'> Gallery</div>
+            <div className='my-9 text-6xl font-normal text-center'> Gallery</div>
             <div className="flex justify-center mb-8">
                 {/* For mobile view: horizontally scrollable */}
                 <div
