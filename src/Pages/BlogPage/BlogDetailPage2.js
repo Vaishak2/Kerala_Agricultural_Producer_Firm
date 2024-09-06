@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import BlogsBanner1 from "../../Assets/Banner-Image/blogsBanner1.png"
-import blogsBannerResp from "../../Assets/Banner-Image/blogsBanner1-resp.png"
+import BlogsBanner2 from "../../Assets/Banner-Image/blogsBanner2.png"
+import blogsBanner2Resp from "../../Assets/Banner-Image/blogsBanner2-resp.png"
 import blogImg1 from '../../Assets/images/blogImages/blogImg1.png'
 import blogImg2 from '../../Assets/images/blogImages/blogImg2.png'
 import blogImg3 from '../../Assets/images/blogImages/blogImg3.png'
@@ -15,8 +15,8 @@ function BlogDetailPage2() {
 
     return (
         <div className='sm:mx-8 mx-4 mt-[40px]'>
-            <img className='sm:block hidden' src={BlogsBanner1}></img>
-            <img className='sm:hidden block' src={blogsBannerResp}></img>
+            <img className='sm:block hidden' src={BlogsBanner2}></img>
+            <img className='sm:hidden block' src={blogsBanner2Resp}></img>
             <div className='sm:text-[40px] text-[32px] font-medium text-left sm:mt-6 mt-8'>The Importance of Choosing the Right Types of Seed Storage and Handling Equipment for Agricultural Success</div>
 
             <div className='text-[16px] font-light text-left sm:leading-7 mt-6'>Learn the importance of proper seed storage and handling equipment in

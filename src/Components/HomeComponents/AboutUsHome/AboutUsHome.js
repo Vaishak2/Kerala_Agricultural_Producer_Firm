@@ -19,7 +19,7 @@ function AboutUsHome() {
 
        <div className='sm:ml-6 sm:mt-[25px] mt-8 sm:w-[764px] w-full sm:text-center' >
         <h2 className='sm:text-5xl text-[32px] font-medium text-[#2A2E35]'>About Us</h2>
-        <p className="font-light text-[#2A2E35] text-[16px] sm:mt-6 mt-4 sm:leading-8 sm:text-justify text-center px-4">
+        <p className="font-light text-[#2A2E35] text-[16px] sm:mt-6 mt-4 sm:leading-8 sm:text-justify text-justify px-4">
           Where nature and innovation meet to bring you the finest agricultural products. Our farm is dedicated to 
           sustainable practices that respect the environment while delivering high-quality, fresh produce to our customers.
           With a passion for the land and a commitment to excellence, we grow a diverse range of crops that nourish our community.
