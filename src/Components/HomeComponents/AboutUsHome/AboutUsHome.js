@@ -6,19 +6,19 @@ import ButtonArrow from "../../../Assets/Icon/arrow_outward.svg"
 function AboutUsHome() {
   return (
 
-    <div className="sm:w-[1347px] sm:mt-[104px] mt-[72px] ml-4 sm:flex sm:mx-auto">
+    <div className="sm:w-[1347px] sm:mt-[104px] mt-[72px] sm:ml-4 mx-2 sm:flex sm:mx-auto ">
       <div className="">
         <img
           src={greenImage}
           alt="greenimg"
-          className="rounded-lg object-cover sm:w-[559px] w-[396px] sm:h-[571px] h-[304px]"
+          className="rounded-lg object-cover sm:w-[559px] w-full sm:h-[571px] h-[304px]"
         />
       </div>
 
 
-       <div className='sm:ml-6 sm:mt-[25px] mt-8 sm:w-[764px] w-[396px] sm:text-justify' >
+       <div className='sm:ml-6 sm:mt-[25px] mt-8 sm:w-[764px] w-full sm:text-center' >
         <h2 className='sm:text-5xl text-[32px] font-medium text-[#2A2E35]'>About Us</h2>
-        <p className="font-light text-[#2A2E35] text-[16px] sm:mt-6 mt-4 sm:leading-8 text-justify">
+        <p className="font-light text-[#2A2E35] text-[16px] sm:mt-6 mt-4 sm:leading-8 sm:text-justify text-center px-4">
           Where nature and innovation meet to bring you the finest agricultural products. Our farm is dedicated to 
           sustainable practices that respect the environment while delivering high-quality, fresh produce to our customers.
           With a passion for the land and a commitment to excellence, we grow a diverse range of crops that nourish our community.
