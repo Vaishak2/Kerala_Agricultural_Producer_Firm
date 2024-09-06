@@ -79,7 +79,7 @@ const CareerPage = () => {
 
     return (
         <div className="container mx-auto px-4 md:px-60 py-8">
-            <h1 className="text-5xl  font-normal my-6 text-center">Current Openings</h1>
+            <h1 className="text-5xl  font-normal my-5 text-center">Current Openings</h1>
             <div className="mb-6 mt-16 flex w-full p-3 border border-gray-300 rounded-md">
                 <img src={searchIcon} alt='searchIcon' />
                 <input
