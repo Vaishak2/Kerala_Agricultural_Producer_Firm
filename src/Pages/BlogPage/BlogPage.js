@@ -13,7 +13,7 @@ function BlogPage() {
         <div className='sm:px-8 px-4'>
             <div className='sm:text-[48px] text-[32px] font-normal sm:mt-[40px] mt-[48px]'>Latest posts & articles</div>
             <div className='grid sm:grid-cols-3 grid-cols-1 gap-6'>
-                <div className='sm:w-[443px] w-[396px] mt-12  sm:mx-auto'>
+                <div className='sm:w-[443px] w-full mt-12  sm:mx-auto'>
                     <img src={blogImg1} className='h-[290px] rounded-lg'></img>
                     <div className='text-[#A7A7A7] sm:text-[16px] text-[18px] text-left mt-6'>10 May 2024</div>
                     <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] mt-4'>Exploring the Future of Farming: Top Agricultural Software...</div>
@@ -25,7 +25,7 @@ function BlogPage() {
                         </button>
                     </Link>
                 </div>
-                <div className='sm:w-[443px] w-[396px] mt-12 sm:mx-auto'>
+                <div className='sm:w-[443px] w-full mt-12 sm:mx-auto'>
                     <img src={blogImg2} className='h-[290px] rounded-lg'></img>
                     <div className='text-[#A7A7A7] sm:text-[16px] text-[18px] text-left mt-6'>10 May 2024</div>
                     <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] mt-4'>The Importance of Choosing the Right Types of Seed Storage...</div>
@@ -37,7 +37,7 @@ function BlogPage() {
                         </button>
                     </Link>
                 </div>
-                <div className='sm:w-[443px] w-[396px] mt-12 sm:mx-auto'>
+                <div className='sm:w-[443px] w-full mt-12 sm:mx-auto'>
                     <img src={blogImg3} className='h-[290px] rounded-lg'></img>
                     <div className='text-[#A7A7A7] sm:text-[16px] text-[18px] text-left mt-6'>10 May 2024</div>
                     <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] mt-4'>Future of Agriculture: Discovering New Methods for Cost-Effect...</div>

@@ -30,13 +30,15 @@
 
     .custom-prev-arrow {
       top: -50px;
-      left: 275px; /* Move the prev arrow 50px to the left */
+      /* left: 275px;  */
+      left: 60%;
       z-index: 1;
     }
     
     .custom-next-arrow {
       top: -50px;
-      right: 14px; /* Move the next arrow 50px to the right */
+      /* right: 14px;  */
+      left: 80%;
       z-index: 1;
     }
 
