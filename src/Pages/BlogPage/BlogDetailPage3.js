@@ -107,8 +107,8 @@ function BlogDetailPage3() {
             <div className='text-[32px] font-medium text-left sm:mt-[104px]'>Similar Blogs</div>
 
             <div className='grid sm:grid-cols-3 grid-cols-1 gap-6'>
-                <div className='sm:w-[443px] w-[396px] mt-12'>
-                    <img src={blogImg1} className='h-[290px] rounded-lg'></img>
+                <div className='sm:w-[443px] w-full mt-12 sm:mx-auto'>
+                    <img src={blogImg1} className='sm:h-[290px] h-auto rounded-lg'></img>
                     <div className='text-[#A7A7A7] sm:text-[16px] text-[18px] text-left mt-6'>10 May 2024</div>
                     <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] mt-4'>Exploring the Future of Farming: Top Agricultural Software...</div>
                     <div className='sm:h-[40px] sm:text-[16px] text-[18px] font-light text-left sm:leading-[19px] mt-4 sm:w-[256px]'>Uncover the best software solutions for today's tech-savvy farmers.</div>
@@ -119,8 +119,8 @@ function BlogDetailPage3() {
                         </button>
                     </Link>
                 </div>
-                <div className='sm:w-[443px] w-[396px] mt-12'>
-                    <img src={blogImg2} className='h-[290px] rounded-lg'></img>
+                <div className='sm:w-[443px] w-full mt-12 sm:mx-auto'>
+                    <img src={blogImg2} className='sm:h-[290px] h-auto rounded-lg'></img>
                     <div className='text-[#A7A7A7] sm:text-[16px] text-[18px] text-left mt-6'>10 May 2024</div>
                     <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] mt-4'>The Importance of Choosing the Right Types of Seed Storage...</div>
                     <div className='sm:h-[40px] sm:text-[16px] text-[18px] font-light text-left sm:leading-[19px] mt-4 sm:w-[256px]'>Learn the importance of proper seed storage and handling equipment...</div>
@@ -131,8 +131,8 @@ function BlogDetailPage3() {
                         </button>
                     </Link>
                 </div>
-                <div className='sm:w-[443px] w-[396px] mt-12'>
-                    <img src={blogImg3} className='h-[290px] rounded-lg'></img>
+                <div className='sm:w-[443px] w-full mt-12 sm:mx-auto'>
+                    <img src={blogImg3} className='sm:h-[290px] h-auto rounded-lg'></img>
                     <div className='text-[#A7A7A7] sm:text-[16px] text-[18px] text-left mt-6'>10 May 2024</div>
                     <div className='sm:h-[60px] text-[24px] font-semibold text-left sm:leading-[29px] mt-4'>Future of Agriculture: Discovering New Methods for Cost-Effect...</div>
                     <div className='sm:h-[40px] sm:text-[16px] font-light text-left sm:leading-[19px] mt-4 sm:w-[256px]'>Explore cost-effective farming methods and cutting-edge...</div>
