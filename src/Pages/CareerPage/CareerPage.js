@@ -92,7 +92,7 @@ const CareerPage = () => {
                 <div key={job.id} className="bg-white rounded-lg p-4 mb-4">
                     <div className="md:flex justify-between items-center">
                         <div className='text-left'>
-                            <h3 className="text-xl font-semibold">{job.title}</h3>
+                            <h3 className="text-lg font-medium">{job.title}</h3>
                             <p>{job.location}</p>
                             <div className="flex space-x-4 mt-2">
                                 <span className="px-2 py-1 border border-gray-300 rounded">{job.experience} Experience</span>
@@ -118,7 +118,7 @@ const CareerPage = () => {
 
                     {/* Job description collapsible section */}
                     {expandedJobId === job.id && (
-                        <div className="mt-4 flex justify-start text-left bg-gray-100 p-4 rounded-lg">
+                        <div className="mt-4 flex justify-start text-left bg-[#f8f8f8] p-4 rounded-lg">
                             {/* <h4 className="text-lg font-semibold">Job Description</h4> */}
                             <p className="mt-2">{job.description}</p>
                         </div>

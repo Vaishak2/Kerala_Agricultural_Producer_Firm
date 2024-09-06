@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import MainLogo from "../../Assets/mainLogo.png";
 import arrowButton from '../../Assets/Icon/arrowButton.svg';
 import fbIcon from '../../Assets/Icon/fbIcon.svg';
@@ -12,11 +13,48 @@ function Footer() {
   const linkSections = [
     {
       title: '',
-      links: [ 'About','Services', 'Products', 'Blogs' ],
+      links: [ 
+        {
+          name : 'About',
+          path : 'aboutUs'
+
+        },
+        {
+          name : 'Services',
+          path : 'services'
+
+        },
+        {
+          name : 'Products',
+          path : 'products'
+
+        },
+        {
+          name : 'Blogs',
+          path : 'blogs'
+
+        },
+      ],
     },
     {
       title: '',
-      links: ['Careers', 'Our Story', 'Board Members',  'Gallery'],
+
+      links: [
+        {
+          name : 'Careers',
+          path : 'career'
+        },
+        {
+          name : 'Our Story',
+          path : 'aboutUs'
+
+        },
+        {
+          name : 'Gallery',
+          path : 'gallery'
+
+        },
+      ],
     }
   ];
 
@@ -64,6 +102,7 @@ function Footer() {
     const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return pattern.test(email);
   };
+  const scrollToTop = () => window.scrollTo({top:0 , behavior: "smooth"})
 
 
   return (
@@ -82,7 +121,7 @@ function Footer() {
           <h2 className='text-[24px] font-normal text-justify leading-[30px]'>
             Subscribe to our <br /> newsletter
           </h2>
-          <form className="sm:mt-[28px] flex sm:w-[289px] w-[396px] h-[51px] mt-[32px] sm:h-[51px]" onSubmit={(e) => e.preventDefault()}>
+          <form className="sm:mt-[28px] flex sm:w-[289px] w-full h-[51px] mt-[32px] sm:h-[51px]" onSubmit={(e) => e.preventDefault()}>
             <input
               name="email"
               placeholder="Email address"
@@ -108,11 +147,13 @@ function Footer() {
 
         <div className="flex mt-[48px] mx-auto m:w-fit text-justify ">
           {linkSections.map((section, idx) => (
-            <div key={idx} className={`space-y-4 ${idx === 0 ? 'sm:ml-[260px] ml-[16px]' : idx === 1 ? 'sm:ml-[172px] ml-[104px]' : ''}`}>
+            <div onClick={scrollToTop} key={idx} className={`space-y-4 ${idx === 0 ? 'sm:ml-[260px] ml-[16px]' : idx === 1 ? 'sm:ml-[172px] ml-[104px]' : ''}`}>
               {section.links.map((link, i) => (
-                <a key={i} href="#" className={`block font-light text-[16px] text-[#2A2E35] hover:underline hover:font-normal ${i > 0 ? 'sm:mt-[20px] mt-[20px]' : ''}`}>
-                  {link}
-                </a>
+               
+                <Link key={i} to={link.path} className={`block font-light text-[16px] text-[#2A2E35] hover:underline hover:font-normal ${i > 0 ? 'sm:mt-[20px] mt-[20px]' : ''}`}>
+                  {link.name}
+                </Link>
+
               ))}
             </div>
           ))}
@@ -121,9 +162,11 @@ function Footer() {
 
       <div className="sm:mt-[72px] mt-[48px] ml-[16px] sm:ml-[186px] flex justify-between sm:items-center">
         <h3 className="font-light text-[14px] sm:text-[16px]">© {currentYear} KGAPCO All Rights Reserved</h3>
-        <div className="flex sm:mr-[185px] mr-[16px]">
+        <div onClick={scrollToTop} className="flex sm:mr-[185px] mr-[16px]">
           {socialIcons.map((icon, idx) => (
-            <a key={idx} href="" className={`${idx > 0 ? 'sm:ml-[40px] ml-[40px]' : ''}`}>
+            
+            <a key={idx} href='' className={`${idx > 0 ? 'sm:ml-[40px] ml-[40px]' : ''}`}>
+            
               <img src={icon.icon} alt={icon.alt} />
             </a>
           ))}
