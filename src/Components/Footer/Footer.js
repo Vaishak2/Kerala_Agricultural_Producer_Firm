@@ -114,7 +114,7 @@ function Footer() {
         </h2>
       </div>
 
-      <div className="mx-auto sm:w-[1068px] w-[396px] mt-[32px] sm:h-[1px] sm:mt-[40px] border-b"></div>
+      <div className="mx-auto sm:w-[1068px] w-full mt-[32px] sm:h-[1px] sm:mt-[40px] border-b"></div>
 
       <div className='sm:mt-[40px] mt-[48px] sm:flex justify-between sm:mx-[185px]'>
         <div>

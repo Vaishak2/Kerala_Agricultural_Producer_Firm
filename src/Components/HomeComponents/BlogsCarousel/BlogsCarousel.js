@@ -62,8 +62,8 @@ function BlogsCarousel() {
     return (
 
         <div className='sm:px-8 bg-[#FFFFFF] sm:mt-[104px] mt-[72px] sm:pb-[84px] pb-[72px]'>
-            <div className='sm:text-[48px] text-[32px] font-medium sm:pt-[104px] pt-[72px]'>Our Blogs</div>
-            <div className='sm:w-[798px] w-full mx-auto text-[16px] sm:leading-8 leading-7 font-light sm:mt-6 mt-4'>Stay informed with our agricultural blog, featuring expert tips, industry insights, and practical advice to enhance your farming operations and drive success.</div>
+            <div className='sm:text-[48px] text-[32px] font-medium sm:pt-[104px] pt-[72px] text-center'>Our Blogs</div>
+            <div className='sm:w-[798px] w-full mx-auto text-[16px] sm:leading-8 leading-7 font-light sm:mt-6 mt-4 text-center'>Stay informed with our agricultural blog, featuring expert tips, industry insights, and practical advice to enhance your farming operations and drive success.</div>
 
 
 

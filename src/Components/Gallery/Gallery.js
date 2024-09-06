@@ -159,7 +159,7 @@ const Gallery = () => {
 
             // Scroll the album into view horizontally (center it or move it left)
             const albumButton = document.getElementById(`album-button-${index}`);
-            if (albumButton && albumContainerRef.current) {
+            // if (albumButton && albumContainerRef.current) {
                 const container = albumContainerRef.current;
                 const buttonOffsetLeft = albumButton.offsetLeft;
                 const buttonWidth = albumButton.offsetWidth;
@@ -168,13 +168,13 @@ const Gallery = () => {
                 // Calculate the center position
                 const scrollPosition = buttonOffsetLeft - (containerWidth / 2) + (buttonWidth / 2);
                 container.scrollTo({ left: scrollPosition, behavior: 'smooth' });
-            }
+            // }
         }
     };
 
     return (
         <div className="container mx-auto p-4">
-            <div className='my-12 text-6xl font-normal'> Gallery</div>
+            <div className='my-12 text-6xl font-normal text-center'> Gallery</div>
             <div className="flex justify-center mb-8">
                 {/* For mobile view: horizontally scrollable */}
                 <div
@@ -186,7 +186,7 @@ const Gallery = () => {
                             key={index}
                             id={`album-button-${index}`}
                             onClick={() => handleAlbumChange(album, index)}
-                            className={`px-36 py-6 text-5xl whitespace-nowrap rounded-full ${currentAlbum === album ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}
+                            className={`px-6 py-2 text-2xl whitespace-nowrap rounded-full ${currentAlbum === album ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}
                         >
                             {`Album ${index + 1}`}
                         </button>

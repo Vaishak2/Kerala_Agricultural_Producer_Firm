@@ -7,7 +7,7 @@ function BannerComponent() {
     <div className='sm:px-8 mx-2'>
    <div className='sm:bg-banner-image bg-Responsive-banner bg-cover sm:w-full w-full rounded-3xl sm:h-[651px] h-[545px] sm:ml-0 sm:mt-4'>
    <div className=' sm:pt-[205px] pt-[270px] sm:pl-[108px] pl-8 '>
-   <h1 className='border sm:text-[12px] sm:leading-[18px] sm:font-normal text-white sm:w-[129px] w-[129px] px-4 text-[12px] rounded-[16px]'>Believe in Quality !</h1>
+   <h1 className='border whitespace-nowrap sm:text-[12px] sm:leading-[18px] sm:font-normal text-white sm:w-[129px] w-[129px] px-4 text-[12px] rounded-[16px]'>Believe in Quality !</h1>
   <div className='sm:text-[100px] sm:leading-[99px] text-[40px] leading-10 text-white text-justify '>
   Sow With us,<br />Reap with Trust
   </div>

@@ -6,9 +6,9 @@ import ClientImage from "../../../Assets/client Image.png"
 
 function ClientSays() {
   return (
-    <div className='bg-[#ffff] sm:mt-0 mt-[77px] sm:ml-0 pt-[72px] px-4 sm:pt-[88px] '>
+    <div className='bg-[#ffff] sm:mt-0 mt-[77px] text-center sm:ml-0 pt-[72px] px-4 sm:pt-[88px] '>
       <div className='sm:w-[764px] w-full sm:mx-auto  '>
-        <h1 className='sm:text-5xl text-[32px] sm:font-medium'>What’s Our Clients Say</h1>
+        <h1 className='sm:text-5xl text-[32px] whitespace-nowrap sm:font-medium'>What’s Our Clients Say</h1>
         <p className='sm:text-[16px] text-[16px] sm:leading-8 font-light mt-4 sm:mt-6'>Hear directly from our valued clients about their experiences with our
 agricultural services. Their feedback highlights our commitment to quality
 and impact.

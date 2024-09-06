@@ -21,7 +21,8 @@ import ApplicationForm from './Pages/Application/ApplicationForm';
 
 function App() {
   return (
-    <div className="App font-signika  bg-[#F8F8F8] mx-auto">
+    // bg-[#F8F8F8]
+    <div className="App font-signika w-full bg-[#F8F8F8]  mx-auto">
       <Router>
 
         <Header />
@@ -47,6 +48,19 @@ function App() {
         <Footer />
       </Router>
     </div>
+    // <div className='bg-[#F8F8F8]  font-signika'>
+    // <Router>
+
+    //    <Header />
+
+    //    <Routes>
+    //    <Route path='/' exact Component={HomePage} />
+    //    <Route path='/gallery' Component={Gallery}/>
+    //    <Route path='/aboutUs' Component={AboutPage}/>
+    //    </Routes>
+    //    <Footer />
+    // </Router>
+    // </div>
   );
 }
 
