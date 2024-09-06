@@ -15,10 +15,10 @@ function AboutBanner() {
 
             <div className="mt-[32px] sm:mt-[40px] text-[16px] sm:text-[16px] font-light text-justify w-full sm:w-[1368px] text-[#2A2E35]">
                 <p className="leading-[28px] sm:leading-[28px]">
-                    At KGAPCO, we’re dedicated to empowering farmers with the tools and knowledge they need to succeed.
+                At KERALA GRAMEEN AGRO PRODUCER COMPANY LTD (KGAPCO), we’re dedicated to empowering farmers with the tools and knowledge they need to succeed.
                     Our passion lies in delivering top-quality seeds, promoting sustainable farming practices, and leveraging the latest agricultural
                     technology to enhance productivity and profitability. We believe that farming should be both rewarding and efficient, and we’re here to support
-                    you every step of the way. With a strong commitment to community and customer satisfaction, KGAPCO is more than just a supplier—we’re your trusted partner in agriculture,
+                    you every step of the way. With a strong commitment to community and customer satisfaction, KERALA GRAMEEN AGRO PRODUCER COMPANY LTD is more than just a supplier—we’re your trusted partner in agriculture,
                     working together to cultivate a prosperous future for all.
                 </p>
             </div>
