@@ -26,7 +26,7 @@ function Footer() {
   ];
 
   return (
-    <div className='sm:w-full w-[428px] h-[650px] mt-[72px] sm:h-[555px] sm:mt-[104px] pt-[2px] sm:pt-6 bg-white'>
+    <div className='sm:w-full w-full h-[650px] mt-[72px] sm:h-[555px] sm:mt-[104px] pt-[2px] px-4 sm:pt-6 bg-white'>
       <div className='sm:mt-[34px] mt-[32px] sm:mx-[185px] mx-[16px] flex justify-between'>
         <img src={MainLogo} alt="logo" className='sm:w-[58px] sm:h-[66px] w-[54px] h-[62px]' />
         <h2 className='my-auto text-[16px] sm:text-[24px] font-normal text-[#2A2E35]'>
@@ -36,12 +36,12 @@ function Footer() {
 
       <div className="mx-auto sm:w-[1068px] w-[396px] mt-[32px] sm:h-[1px] sm:mt-[40px] border-b"></div>
 
-      <div className='sm:mt-[40px] mt-[48px] sm:flex justify-between ml-[16px] sm:mx-[185px]'>
+      <div className='sm:mt-[40px] mt-[48px] sm:flex justify-between sm:mx-[185px]'>
         <div>
           <h2 className='text-[24px] font-normal text-justify leading-[30px]'>
             Subscribe to our <br /> newsletter
           </h2>
-          <form className="sm:mt-[28px] flex sm:w-[289px] w-[396px] h-[51px] mt-[32px] sm:h-[51px]" onSubmit={(e) => e.preventDefault()}>
+          <form className="sm:mt-[28px] flex sm:w-[289px] w-full h-[51px] mt-[32px] sm:h-[51px]" onSubmit={(e) => e.preventDefault()}>
             <input
               type="email"
               name="email"

@@ -1,5 +1,6 @@
 import React from 'react';
 import BlackButtonArrow from "../../../Assets/Icon/arrow_outward_Black.svg";
+import { Link } from 'react-router-dom';
 
 function BannerComponent() {
   return (
@@ -11,11 +12,12 @@ function BannerComponent() {
   Sow With us,<br />Reap with Trust
   </div>
   <h1 className='sm:text-[24px] sm:leading-[29px] mt-2 text-[16px] w-[250px] sm:w-full font-light text-justify text-white sm:mt-4 sm:font-light'>Harvesting nature’s bounty with care and dedication.</h1>
-   
+   <Link to='/contact'>
   <button className='GetInTouchBtn flex  bg-white sm:mt-12 mt-8 sm:px-12 px-6 sm:py-4 py-3'>
           <span className='text-black'>Get In Touch</span>
           <img className='sm:w-6 sm:h-6' src={BlackButtonArrow} alt="Button Arrow" />
         </button>
+        </Link>
    </div>
     
    </div> 
