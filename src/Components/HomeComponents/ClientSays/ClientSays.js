@@ -38,7 +38,7 @@ function ClientSays() {
       </div>
 
       {/* <div className='flex columns-3 gap-6 sm:mx-auto sm:justify-center justify-center sm:mt-14 mt-12 '> */}
-        <div className="slider-container">
+        <div className="slider-container-Client">
           <Slider {...settings}>
 
            
