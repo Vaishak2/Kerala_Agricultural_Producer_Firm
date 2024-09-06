@@ -22,10 +22,12 @@ function Header() {
 
   return (
     <div>
-      <div className='justify-between sm:justify-center flex  sm:pt-4 sm:p-0 p-4 '>
+      <div className='justify-between sm:justify-center flex  sm:pt-4 sm:p-0 p-4'>
         <div className='logoSection flex'>
           <img className='sm:hidden block cursor-pointer w-6 h-6 mt-10 ' src={ToggleMenuIcon} alt="Toggle Menu" onClick={toggleMenu} />
+          <Link to='/'>
           <img className='sm:w-[58px] w-[64px] sm:h-[66px] h-[72px] sm:ml-0 ml-6' src={MainLogo} alt="Main Logo" />
+          </Link>
         </div>
         <div className='NavSection sm:w-[698px] hidden columns-auto sm:flex gap-4 sm:text-[16px] sm:leading-5 sm:font-light my-auto sm:ml-[295px]'>
           {/* Navigation Items */}

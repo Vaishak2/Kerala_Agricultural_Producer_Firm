@@ -35,7 +35,7 @@ function BoardMembers() {
                 <h1>Board Members</h1>
             </div>
             <div className='sm:text-[16px] font-light flex sm:leading-[28px] sm:mt-[18px] mt-[36px] w-full sm:w-[666px]'>
-                <p className='text-justify' >At Agapco, our board of directors brings a wealth of experience and expertise to guide our mission and vision.
+                <p className='text-justify' >At KERALA GRAMEEN AGRO PRODUCER COMPANY LTD (KGAPCO), our board of directors brings a wealth of experience and expertise to guide our mission and vision.
                     Each member is a leader in their field, dedicated to advancing agriculture and supporting our commitment to innovation and sustainability.
                     Get to know the individuals who steer our organization towards a brighter, more productive future..</p>
             </div>
