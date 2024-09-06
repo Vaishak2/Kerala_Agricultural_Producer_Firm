@@ -73,13 +73,13 @@ function ServicesPage() {
     };
 
     return (
-        <div className='sm:px-16 px-4'>
-            <div className='sm:w-[798px] w-full sm:mx-auto sm:mt-10'>
-                <div className='sm:text-[48px] text-[32px] sm:font-medium sm:leading-[99px] leading-[99px]'>Our services</div>
+        <div className='sm:px-16 px-4 sm:mt-[29px] '>
+            <div className='sm:w-[798px] w-full sm:mx-auto '>
+                <div className='sm:text-[48px] text-[32px]  sm:font-medium sm:leading-[99px] leading-[99px]'>Our services</div>
                 <p className='sm:text-[16px] text-[16px] sm:font-light sm:leading-8 leading-[28px] text-[#2A2E35]'>
-                    Transform your agricultural practices with KGAPCO Our expert services in crop
+                    Transform your agricultural practices with KERALA GRAMEEN AGRO PRODUCER COMPANY LTD (KGAPCO). Our expert services in crop
                     procurement and seed distribution are designed to support your farming needs
-                    effectively
+                    effectively.
                 </p>
             </div>
             {servicesData.sections.map((section, sectionIndex) => (
