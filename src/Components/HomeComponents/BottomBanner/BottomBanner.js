@@ -11,10 +11,10 @@ function BottomBanner() {
          alt=""
          className='sm:mt-[104px]' />
     </div>
-    <div className='sm:hidden block sm:mx-[32px] '>
+    <div className='sm:hidden block sm:mx-[32px] px-4 '>
         <img  src={bottomBanner2}
          alt=""
-         className='sm:mt-[104px] w-[396px] h-[164px] mx-auto mt-[72px]' />
+         className='sm:mt-[104px] w-full h-[164px] mx-auto mt-[72px]' />
     </div>
     </div>
 

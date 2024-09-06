@@ -6,15 +6,15 @@ import ClientImage from "../../../Assets/client Image.png"
 
 function ClientSays() {
   return (
-    <div className='bg-[#ffff] sm:mt-0 mt-[77px] sm:ml-0 ml-4 pt-[72px] sm:pt-[88px] '>
-      <div className='sm:w-[764px] w-[396px] sm:mx-auto  '>
+    <div className='bg-[#ffff] sm:mt-0 mt-[77px] sm:ml-0 pt-[72px] px-4 sm:pt-[88px] '>
+      <div className='sm:w-[764px] w-full sm:mx-auto  '>
         <h1 className='sm:text-5xl text-[32px] sm:font-medium'>What’s Our Clients Say</h1>
         <p className='sm:text-[16px] text-[16px] sm:leading-8 font-light mt-4 sm:mt-6'>Hear directly from our valued clients about their experiences with our
 agricultural services. Their feedback highlights our commitment to quality
 and impact.
 </p>
       </div>
-      <div className='flex columns-3 gap-6 sm:mx-auto sm:justify-center'>
+      <div className='flex columns-3 gap-6 sm:mx-auto sm:justify-center justify-center sm:mt-14 mt-12 '>
       <div className='hidden sm:block'>
         <div className=' sm:translate-x-[199px] sm:translate-y-[24px] sm:w-fit'><img src={blackExclamtion} alt="" /></div>
 
@@ -31,14 +31,14 @@ and impact.
           </div>
         </div>
         <div>
-          <img  className='sm:w-[79px] sm:h-[79px] sm:translate-x-[185px] sm:translate-y-[-48px]' src={ClientImage} alt="" />
+          <img  className='sm:w-[79px] sm:h-[79px] sm:translate-x-[140px] sm:translate-y-[-48px]' src={ClientImage} alt="" />
         </div>
       </div>
       <div>
-        <div className='sm:translate-x-[199px] translate-x-[173px] translate-y-[24px] w-fit'><img src={Exclamtion} alt="" /></div>
+        <div className='sm:translate-x-[199px] translate-x-[151px] translate-y-[24px] w-fit'><img src={Exclamtion} alt="" /></div>
 
         <div>
-          <div className='sm:w-[443px] w-[396px] bg-[#5D8424] h-[368px] rounded-t-[32px] rounded-bl-[32px] text-white sm:pt-12 pt-12'>
+          <div className='sm:w-[443px] w-full bg-[#5D8424] h-[368px] rounded-t-[32px] rounded-bl-[32px] text-white sm:pt-12 pt-12'>
 
             <div className=''>
               <h1 className='sm:text-[20px]'>Madhav Anil</h1>
@@ -50,7 +50,7 @@ and impact.
           </div>
         </div>
         <div>
-          <img  className='w-[79px] h-[79px] sm:translate-x-[185px] translate-x-[168px] translate-y-[-48px]' src={ClientImage} alt="" />
+          <img  className='w-[79px] h-[79px] sm:translate-x-[185px] translate-x-[141px] translate-y-[-48px]' src={ClientImage} alt="" />
         </div>
       </div>
       <div className='hidden sm:block'>

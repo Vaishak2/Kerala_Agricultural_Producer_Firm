@@ -34,8 +34,8 @@ procurement and seed distribution are designed to support your farming needs
 effectively
         </p>
       </div>
-      <div className='flex sm:mx-auto justify-center sm:w-full px-4'>
-        <div className='sm:mt-16 mt-12 sm:ml-8 '>
+      <div className='flex sm:mx-auto  sm:w-full sm:px-8 px-4'>
+        <div className='sm:mt-16 mt-12  '>
           <h1 className='text-justify font-medium sm:text-[32px] text-[22px] sm:leading-[57px] leading-[22px]'>Agri support Services</h1>
           <div className='sm:mt-[205px] mt-6 sm:ml-[57px] sm:hidden block'>
             <img className='sm:w-[490px] w-full h-[322px] sm:h-[322px]' src={Service1} alt="" />
@@ -59,20 +59,20 @@ effectively
             <img className='sm:w-[490px] sm:h-[322px]' src={Service1} alt="" />
           </div>
       </div>
-      <div className='flex'>
-      <div className=' hidden sm:block sm:mt-[146px] sm:ml-[57px]'>
+      <div className='flex sm:px-8 px-4'>
+      <div className=' hidden sm:block sm:mt-[146px] '>
             <img className='sm:w-[490px] sm:h-[322px]' src={Service2} alt="" />
           </div>
-        <div className='sm:mt-16 mt-12 sm:ml-8 sm:mb-20 ml-4'>
+        <div className='sm:mt-16 mt-12 sm:ml-8 sm:mb-20'>
           <h1 className='text-justify font-medium sm:text-[32px] text-[22px] sm:leading-[57px] leading-[22px]'> Our Financial Services</h1>
           <div className='sm:mt-[205px] mt-6 sm:ml-[57px] sm:hidden block '>
-            <img className='sm:w-[490px] w-[396px] h-[322px] sm:h-[322px]' src={Service2} alt="" />
+            <img className='sm:w-[490px] w-full h-[322px] sm:h-[322px]' src={Service2} alt="" />
           </div>
           {services2.map((service, index) => (
             <Link to={"services"}>
             <div
               key={index}
-              className='flex sm:w-[793px] w-[396px] bg-white rounded-t-[32px] pr-[14px] rounded-br-[32px] sm:p-3 py-5 justify-between sm:mt-6 mt-4 leading-6'
+              className='flex sm:w-[793px] w-full bg-white rounded-t-[32px] pr-[14px] rounded-br-[32px] sm:p-3 py-5 justify-between sm:mt-6 mt-4 leading-6'
               onMouseEnter={() => setHoveredIndex2(index)}
               onMouseLeave={() => setHoveredIndex2(null)}
             >

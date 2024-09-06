@@ -74,7 +74,7 @@ function ServicesPage() {
 
     return (
         <div>
-            <div className='sm:w-[798px] w-[396px] sm:mx-auto ml-4'>
+            <div className='sm:w-[798px] w-[396px] sm:mx-auto ml-4 sm:mt-10'>
                 <div className='sm:text-[48px] text-[32px] sm:font-medium sm:leading-[99px] leading-[99px]'>Our services</div>
                 <p className='sm:text-[16px] text-[16px] sm:font-light sm:leading-8 leading-[28px] text-[#2A2E35]'>
                     Transform your agricultural practices with KGAPCO Our expert services in crop
