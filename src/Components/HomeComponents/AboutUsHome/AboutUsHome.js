@@ -2,6 +2,7 @@ import React from 'react'
 import greenImage from '../../../Assets/greenImage.png'
 import Group from '../../../Assets/Group.png'
 import ButtonArrow from "../../../Assets/Icon/arrow_outward.svg"
+import { Link } from 'react-router-dom'
 
 function AboutUsHome() {
   return (
@@ -40,10 +41,12 @@ function AboutUsHome() {
               </h3>
             </div>
             <div className='sm:mt-[56px]'>
-              <button className=" bg-[#5D8424] text-[#F5F5DC] font-normal text-[16px] sm:h-[56px] sm:w-[200px] rounded-[48px] sm:py-4 py-3 px-6  sm:px-12">
-                View More
-                <img className='sm:w-6 sm:h-6' src={ButtonArrow} alt="Button Arrow" />
-              </button>
+             <Link to='/aboutUs'>
+                <button className=" bg-[#5D8424] text-[#F5F5DC] font-normal text-[16px] sm:h-[56px] sm:w-[200px] rounded-[48px] sm:py-4 py-3 px-6  sm:px-12">
+                  View More
+                  <img className='sm:w-6 sm:h-6' src={ButtonArrow} alt="Button Arrow" />
+                </button>
+             </Link>
             </div>
           </div>
 
