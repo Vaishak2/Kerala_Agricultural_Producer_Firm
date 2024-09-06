@@ -34,7 +34,7 @@ function BoardMembers() {
             <div className='sm:text-[48px] text-[32px] font-medium flex '>
                 <h1>Board Members</h1>
             </div>
-            <div className='sm:text-[16px] font-light flex sm:leading-[28px] sm:mt-[18px] mt-[36px] w-[395px] sm:w-[666px]'>
+            <div className='sm:text-[16px] font-light flex sm:leading-[28px] sm:mt-[18px] mt-[36px] w-full sm:w-[666px]'>
                 <p className='text-justify' >At Agapco, our board of directors brings a wealth of experience and expertise to guide our mission and vision.
                     Each member is a leader in their field, dedicated to advancing agriculture and supporting our commitment to innovation and sustainability.
                     Get to know the individuals who steer our organization towards a brighter, more productive future..</p>
@@ -46,7 +46,7 @@ function BoardMembers() {
                 <div className='sm:ml-[24px]  text-justify'>
                     <div className='sm:mt-[55px] mt-[16px] font-semibold text-[18px] '>Johnson KP</div>
                     <div className='sm:mt-[8px] mt-[8px] font-light text-[16px]'>Chairman</div>
-                    <div className='sm:mt-[40px] mt-[24px] font-light text-[16px] leading-[28px] text-[#2A2E35] w-[396px] sm:w-[792px]'>
+                    <div className='sm:mt-[40px] mt-[24px] font-light text-[16px] leading-[28px] text-[#2A2E35] w-full sm:w-[792px]'>
                         Johnson KP, Chairman of Kerala Grameen Agro Producer Company Ltd (KGAPCO), is a trailblazing leader with a storied past, whose illustrious career has been marked by valor, precision, and a relentless pursuit of excellence. A decorated Army Veteran, he brings the same discipline, strategic prowess, and unwavering dedication to KGAPCO, inspiring his team to achieve the extraordinary.
 
                         With a unique blend of banking expertise and media savvy, Johnson KP is a masterful storyteller, weaving compelling narratives that captivate audiences and drive growth. His financial acumen, risk management expertise, and operational prowess have been a game-changer, propelling KGAPCO to new heights.
