@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 function AboutUsHome() {
   return (
 
-    <div className="sm:w-[1347px] sm:mt-[104px] mt-[72px] sm:ml-4 mx-2 sm:flex sm:mx-auto ">
+    <div className="sm:w-[1347px] sm:mt-[104px] mt-[72px] sm:ml-4 mx-2 sm:flex sm:px-8 ">
       <div className="">
         <img
           src={greenImage}
@@ -34,13 +34,13 @@ function AboutUsHome() {
               <span className="flex items-center justify-center   bg-[#FFFFFF] text-[#2A2E35] text-[20px] font-medium sm:w-[155px] w-[141px] h-[40px] rounded-[40px]">
                 Our Mission
               </span>
-              <h3 className="sm:mt-[24px] text-start font-light text-[#2A2E35] sm:text-5xl text-[32px]">
+              <h3 className="sm:mt-[24px] mt-[24px] text-start font-light text-[#2A2E35] sm:text-5xl text-[32px]">
                   Saw with us, <br />
                 <span className="sm:text-5xl text-[32px] sm:font-normal font-semibold">Reap with trust.</span>
 
               </h3>
             </div>
-            <div className='sm:mt-[56px]'>
+            <div className='sm:mt-[56px] mt-[24px]'>
              <Link to='/aboutUs'>
                 <button className=" bg-[#5D8424] text-[#F5F5DC] font-normal text-[16px] sm:h-[56px] sm:w-[200px] rounded-[48px] sm:py-4 py-3 px-6  sm:px-12">
                   View More

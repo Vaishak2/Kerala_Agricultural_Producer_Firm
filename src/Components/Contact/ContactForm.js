@@ -112,13 +112,13 @@ const ContactForm = () => {
                         <label className="block text-sm font-medium text-left text-gray-700 mb-2">Message</label>
                         <textarea
                             name="Message"
-                            className="block w-full h-32 px-4 py-3 border-none rounded-md shadow-sm focus:outline-none focus:ring-green-600 focus:border-green-600 sm:text-sm bg-[#F8F8F8]"
+                            className="block w-full h-32 px-4 py-3 border-none rounded-md resize-none shadow-sm focus:outline-none focus:ring-green-600 focus:border-green-600 sm:text-sm bg-[#F8F8F8]"
                         ></textarea>
                     </div>
                     <div>
                         <button
                             type="submit"
-                            className="w-full bg-[#5D8424] h-[56px] text-white flex justify-center px-4 py-3 rounded-md text-lg font-medium hover:bg-green-700 transition duration-300"
+                            className="w-full bg-[#5D8424] h-[56px] text-white flex justify-center px-4 py-3  text-lg font-medium transition duration-300"
                         >
                             Submit
                         </button>
