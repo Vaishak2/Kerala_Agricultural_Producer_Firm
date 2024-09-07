@@ -121,7 +121,7 @@ function Footer() {
           <h2 className='text-[24px] font-normal text-justify leading-[30px]'>
             Subscribe to our <br /> newsletter
           </h2>
-          <form className="sm:mt-[28px] flex sm:w-[289px] w-full h-[51px] mt-[32px] sm:h-[51px]" onSubmit={(e) => e.preventDefault()}>
+          <form className="sm:mt-[28px] flex sm:w-[289px] w-full h-[51px] mt-[32px] mb-[48px] sm:h-[51px]" onSubmit={(e) => e.preventDefault()}>
             <input
               name="email"
               placeholder="Email address"
