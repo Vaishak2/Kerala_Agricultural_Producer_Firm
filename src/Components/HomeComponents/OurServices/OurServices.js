@@ -14,7 +14,7 @@ function OurServices() {
     "Distribution of Agri support products",
     "Distribution of seeds",
     "Procurement of Agricultural crops with fixed return to the farmer",
-    "Empowering the Agriculture with advanced technology and innovative support"
+    "Empowering the Agriculture with advanced technology and inn..."
   ];
   const services2 = [
     "Sampoorna Samrudhi (Fixed Contribution Scheme)",
