@@ -15,7 +15,7 @@
   @media (max-width: 768px) {
 
     .slider-container-Client .slick-slide {
-      padding: 0 0px; /* Adds 12px padding on left and right to create a 24px gap between slides */
+      padding: 0 12px; /* Adds 12px padding on left and right to create a 24px gap between slides */
     }
     
     .slider-container-Client .slick-list {
